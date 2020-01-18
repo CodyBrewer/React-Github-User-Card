@@ -1,17 +1,37 @@
-import React from "react";
+import React, { Component } from "react";
 import Follower from "./Follower";
 
-const Followers = props => {
-  const followersData = props.followersData;
+class Followers extends Component {
+  state = {
+    followersData: []
+  };
 
-  return (
-    <ul className="mx-auto w-1/2">
-      Followers:
-      {followersData.map(followerData => (
-        <Follower followerData={followerData} />
-      ))}
-    </ul>
-  );
-};
+  componentDidMount() {
+    this.getFollowerData(this.props.user);
+  }
+
+  getFollowerData = user => {
+    fetch(`https://api.github.com/users/${user}/followers`)
+      .then(res => res.json())
+      .then(githubData => {
+        this.setState({
+          ...this.state,
+          followersData: githubData
+        });
+      })
+      .catch(err => console.log(err.message));
+  };
+
+  render() {
+    return (
+      <ul className="mx-auto w-1/2">
+        Followers:
+        {this.state.followersData.map(followerData => (
+          <Follower followerData={followerData} />
+        ))}
+      </ul>
+    );
+  }
+}
 
 export default Followers;
