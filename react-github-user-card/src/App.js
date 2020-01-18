@@ -2,6 +2,8 @@ import React, { Component } from "react";
 import "./styles/styles.css";
 
 import GithubUser from "./components/UserComponents/GithubUser";
+import Followers from "./components/FollowersComponents/Followers";
+import Following from "./components/FollowingComponents/Following";
 
 class App extends Component {
   state = {
@@ -47,7 +49,7 @@ class App extends Component {
   };
 
   getFollowingData = user => {
-    fetch(`https://api.github.com/users/${user}/followers`)
+    fetch(`https://api.github.com/users/${user}/following`)
       .then(res => res.json())
       .then(githubData => {
         this.setState({
@@ -61,11 +63,11 @@ class App extends Component {
   render() {
     return (
       <div className="container mx-auto">
-        {this.state.userData ? (
-          <GithubUser userData={this.state.userData} />
-        ) : (
-          <p>Loading</p>
-        )}
+        <GithubUser userData={this.state.userData} />
+        <section className="w-11/12 mx-auto flex">
+          <Followers followersData={this.state.followersData} />
+          <Following followingData={this.state.followingData} />
+        </section>
       </div>
     );
   }
