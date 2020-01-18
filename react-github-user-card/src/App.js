@@ -9,20 +9,7 @@ import Search from "./components/SearchComponents/Search";
 class App extends Component {
   state = {
     user: "CodyBrewer",
-    followingData: [],
     search: ""
-  };
-
-  getFollowingData = user => {
-    fetch(`https://api.github.com/users/${user}/following`)
-      .then(res => res.json())
-      .then(githubData => {
-        this.setState({
-          ...this.state,
-          followingData: githubData
-        });
-      })
-      .catch(err => console.log(err.message));
   };
 
   handleSearchUser = user => {
@@ -55,11 +42,7 @@ class App extends Component {
             user={this.state.user}
             followersData={this.state.followersData}
           />
-          <Following
-            user={this.state.user}
-            getFollowingData={this.getFollowingData}
-            followingData={this.state.followingData}
-          />
+          <Following user={this.state.user} />
         </section>
       </div>
     );

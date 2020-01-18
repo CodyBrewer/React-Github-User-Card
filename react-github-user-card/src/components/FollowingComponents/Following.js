@@ -2,15 +2,34 @@ import React, { Component } from "react";
 import Follow from "./Follow";
 
 class Following extends Component {
-  componentDidMount() {
-    this.props.getFollowingData(this.props.user);
+  constructor(props) {
+    super(props);
+    this.state = {
+      followingData: []
+    };
   }
+
+  componentDidMount() {
+    this.getFollowingData(this.props.user);
+  }
+
+  getFollowingData = user => {
+    fetch(`https://api.github.com/users/${user}/following`)
+      .then(res => res.json())
+      .then(githubData => {
+        this.setState({
+          ...this.state,
+          followingData: githubData
+        });
+      })
+      .catch(err => console.log(err => console.log(err.message)));
+  };
 
   render() {
     return (
       <ul className="mx-auto w-1/2">
         Following:
-        {this.props.followingData.map(followData => (
+        {this.state.followingData.map(followData => (
           <Follow followData={followData} />
         ))}
       </ul>
