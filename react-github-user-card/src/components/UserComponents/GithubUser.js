@@ -1,7 +1,34 @@
 import React, { Component } from "react";
 
 class GithubUser extends Component {
-  componentDidMount() {}
+  constructor(props) {
+    super(props);
+    this.state = {
+      userData: []
+    };
+  }
+
+  componentDidMount() {
+    this.getUserData(this.props.user);
+  }
+
+  componentDidUpdate(prevProps, prevState) {
+    if (prevProps.user !== this.props.user) {
+      this.getUserData(this.props.user);
+    }
+  }
+
+  getUserData = user => {
+    fetch(`https://api.github.com/users/${this.props.user}`)
+      .then(res => res.json())
+      .then(githubData => {
+        this.setState({
+          ...this.state,
+          userData: githubData
+        }).then(res => console.log(res));
+      })
+      .catch(err => console.log(err.message));
+  };
 
   render() {
     return (
@@ -9,20 +36,20 @@ class GithubUser extends Component {
         <section className="w-1/2 m-4">
           <img
             className="w-1/2"
-            src={this.props.userData.avatar_url}
-            alt={this.props.userData.name}
+            src={this.state.userData.avatar_url}
+            alt={this.state.userData.name}
           />
-          <h2 className="text-blue-400">{this.props.userData.name}</h2>
-          <a href={`https://${this.props.userData.blog}`}>
-            {this.props.userData.blog}
+          <h2 className="text-blue-400">{this.state.userData.name}</h2>
+          <a href={`https://${this.state.userData.blog}`}>
+            {this.state.userData.blog}
           </a>
         </section>
         <section className="w-1/2 m-4 text-center">
-          <p className="text-base">{this.props.userData.bio}</p>
-          {this.props.userData.hireable && this.props.userData.email ? (
+          <p className="text-base">{this.state.userData.bio}</p>
+          {this.state.userData.hireable && this.state.userData.email ? (
             <p className="text-sm">
               Looking for coding opportunities!{" "}
-              <a href={`mailto:${this.props.userData.email}`}>Contact</a>
+              <a href={`mailto:${this.state.userData.email}`}>Contact</a>
             </p>
           ) : null}
         </section>
