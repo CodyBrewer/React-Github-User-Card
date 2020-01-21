@@ -8446,36 +8446,36 @@ video {
   background-image: linear-gradient(to top left, #f00, #0f0, #00f);
 }
 
-.bg-gradient-t-black-white-with-stops {
-  background-image: linear-gradient(to top, #000, #000 45%, #fff 55%, #fff);
+.bg-gradient-t-blue-green-red {
+  background-image: linear-gradient(to top, #00f, #0f0, #f00);
 }
 
-.bg-gradient-tr-black-white-with-stops {
-  background-image: linear-gradient(to top right, #000, #000 45%, #fff 55%, #fff);
+.bg-gradient-tr-blue-green-red {
+  background-image: linear-gradient(to top right, #00f, #0f0, #f00);
 }
 
-.bg-gradient-r-black-white-with-stops {
-  background-image: linear-gradient(to right, #000, #000 45%, #fff 55%, #fff);
+.bg-gradient-r-blue-green-red {
+  background-image: linear-gradient(to right, #00f, #0f0, #f00);
 }
 
-.bg-gradient-br-black-white-with-stops {
-  background-image: linear-gradient(to bottom right, #000, #000 45%, #fff 55%, #fff);
+.bg-gradient-br-blue-green-red {
+  background-image: linear-gradient(to bottom right, #00f, #0f0, #f00);
 }
 
-.bg-gradient-b-black-white-with-stops {
-  background-image: linear-gradient(#000, #000 45%, #fff 55%, #fff);
+.bg-gradient-b-blue-green-red {
+  background-image: linear-gradient(#00f, #0f0, #f00);
 }
 
-.bg-gradient-bl-black-white-with-stops {
-  background-image: linear-gradient(to bottom left, #000, #000 45%, #fff 55%, #fff);
+.bg-gradient-bl-blue-green-red {
+  background-image: linear-gradient(to bottom left, #00f, #0f0, #f00);
 }
 
-.bg-gradient-l-black-white-with-stops {
-  background-image: linear-gradient(to left, #000, #000 45%, #fff 55%, #fff);
+.bg-gradient-l-blue-green-red {
+  background-image: linear-gradient(to left, #00f, #0f0, #f00);
 }
 
-.bg-gradient-tl-black-white-with-stops {
-  background-image: linear-gradient(to top left, #000, #000 45%, #fff 55%, #fff);
+.bg-gradient-tl-blue-green-red {
+  background-image: linear-gradient(to top left, #00f, #0f0, #f00);
 }
 
 .bg-gradient-t-green-blue {
@@ -8616,6 +8616,42 @@ video {
 
 .bg-radial-tl-red-green-blue {
   background-image: radial-gradient(closest-side at top left, #f00, #0f0, #00f);
+}
+
+.bg-radial-blue-green-red {
+  background-image: radial-gradient(closest-side, #00f, #0f0, #f00);
+}
+
+.bg-radial-t-blue-green-red {
+  background-image: radial-gradient(closest-side at top, #00f, #0f0, #f00);
+}
+
+.bg-radial-tr-blue-green-red {
+  background-image: radial-gradient(closest-side at top right, #00f, #0f0, #f00);
+}
+
+.bg-radial-r-blue-green-red {
+  background-image: radial-gradient(closest-side at right, #00f, #0f0, #f00);
+}
+
+.bg-radial-br-blue-green-red {
+  background-image: radial-gradient(closest-side at bottom right, #00f, #0f0, #f00);
+}
+
+.bg-radial-b-blue-green-red {
+  background-image: radial-gradient(closest-side at bottom, #00f, #0f0, #f00);
+}
+
+.bg-radial-bl-blue-green-red {
+  background-image: radial-gradient(closest-side at bottom left, #00f, #0f0, #f00);
+}
+
+.bg-radial-l-blue-green-red {
+  background-image: radial-gradient(closest-side at left, #00f, #0f0, #f00);
+}
+
+.bg-radial-tl-blue-green-red {
+  background-image: radial-gradient(closest-side at top left, #00f, #0f0, #f00);
 }
 
 .bg-radial-black-white-with-stops {
@@ -8894,36 +8930,36 @@ video {
   background-image: repeating-linear-gradient(to top left, #f00, #0f0, #00f 25px);
 }
 
-.bg-gradient-t-black-white-with-stops-sm {
-  background-image: repeating-linear-gradient(to top, #000, #000 45%, #fff 55%, #fff 25px);
+.bg-gradient-t-blue-green-red-sm {
+  background-image: repeating-linear-gradient(to top, #00f, #0f0, #f00 25px);
 }
 
-.bg-gradient-tr-black-white-with-stops-sm {
-  background-image: repeating-linear-gradient(to top right, #000, #000 45%, #fff 55%, #fff 25px);
+.bg-gradient-tr-blue-green-red-sm {
+  background-image: repeating-linear-gradient(to top right, #00f, #0f0, #f00 25px);
 }
 
-.bg-gradient-r-black-white-with-stops-sm {
-  background-image: repeating-linear-gradient(to right, #000, #000 45%, #fff 55%, #fff 25px);
+.bg-gradient-r-blue-green-red-sm {
+  background-image: repeating-linear-gradient(to right, #00f, #0f0, #f00 25px);
 }
 
-.bg-gradient-br-black-white-with-stops-sm {
-  background-image: repeating-linear-gradient(to bottom right, #000, #000 45%, #fff 55%, #fff 25px);
+.bg-gradient-br-blue-green-red-sm {
+  background-image: repeating-linear-gradient(to bottom right, #00f, #0f0, #f00 25px);
 }
 
-.bg-gradient-b-black-white-with-stops-sm {
-  background-image: repeating-linear-gradient(#000, #000 45%, #fff 55%, #fff 25px);
+.bg-gradient-b-blue-green-red-sm {
+  background-image: repeating-linear-gradient(#00f, #0f0, #f00 25px);
 }
 
-.bg-gradient-bl-black-white-with-stops-sm {
-  background-image: repeating-linear-gradient(to bottom left, #000, #000 45%, #fff 55%, #fff 25px);
+.bg-gradient-bl-blue-green-red-sm {
+  background-image: repeating-linear-gradient(to bottom left, #00f, #0f0, #f00 25px);
 }
 
-.bg-gradient-l-black-white-with-stops-sm {
-  background-image: repeating-linear-gradient(to left, #000, #000 45%, #fff 55%, #fff 25px);
+.bg-gradient-l-blue-green-red-sm {
+  background-image: repeating-linear-gradient(to left, #00f, #0f0, #f00 25px);
 }
 
-.bg-gradient-tl-black-white-with-stops-sm {
-  background-image: repeating-linear-gradient(to top left, #000, #000 45%, #fff 55%, #fff 25px);
+.bg-gradient-tl-blue-green-red-sm {
+  background-image: repeating-linear-gradient(to top left, #00f, #0f0, #f00 25px);
 }
 
 .bg-gradient-t-green-blue-sm {
@@ -9054,36 +9090,36 @@ video {
   background-image: repeating-linear-gradient(to top left, #f00, #0f0, #00f 50px);
 }
 
-.bg-gradient-t-black-white-with-stops-md {
-  background-image: repeating-linear-gradient(to top, #000, #000 45%, #fff 55%, #fff 50px);
+.bg-gradient-t-blue-green-red-md {
+  background-image: repeating-linear-gradient(to top, #00f, #0f0, #f00 50px);
 }
 
-.bg-gradient-tr-black-white-with-stops-md {
-  background-image: repeating-linear-gradient(to top right, #000, #000 45%, #fff 55%, #fff 50px);
+.bg-gradient-tr-blue-green-red-md {
+  background-image: repeating-linear-gradient(to top right, #00f, #0f0, #f00 50px);
 }
 
-.bg-gradient-r-black-white-with-stops-md {
-  background-image: repeating-linear-gradient(to right, #000, #000 45%, #fff 55%, #fff 50px);
+.bg-gradient-r-blue-green-red-md {
+  background-image: repeating-linear-gradient(to right, #00f, #0f0, #f00 50px);
 }
 
-.bg-gradient-br-black-white-with-stops-md {
-  background-image: repeating-linear-gradient(to bottom right, #000, #000 45%, #fff 55%, #fff 50px);
+.bg-gradient-br-blue-green-red-md {
+  background-image: repeating-linear-gradient(to bottom right, #00f, #0f0, #f00 50px);
 }
 
-.bg-gradient-b-black-white-with-stops-md {
-  background-image: repeating-linear-gradient(#000, #000 45%, #fff 55%, #fff 50px);
+.bg-gradient-b-blue-green-red-md {
+  background-image: repeating-linear-gradient(#00f, #0f0, #f00 50px);
 }
 
-.bg-gradient-bl-black-white-with-stops-md {
-  background-image: repeating-linear-gradient(to bottom left, #000, #000 45%, #fff 55%, #fff 50px);
+.bg-gradient-bl-blue-green-red-md {
+  background-image: repeating-linear-gradient(to bottom left, #00f, #0f0, #f00 50px);
 }
 
-.bg-gradient-l-black-white-with-stops-md {
-  background-image: repeating-linear-gradient(to left, #000, #000 45%, #fff 55%, #fff 50px);
+.bg-gradient-l-blue-green-red-md {
+  background-image: repeating-linear-gradient(to left, #00f, #0f0, #f00 50px);
 }
 
-.bg-gradient-tl-black-white-with-stops-md {
-  background-image: repeating-linear-gradient(to top left, #000, #000 45%, #fff 55%, #fff 50px);
+.bg-gradient-tl-blue-green-red-md {
+  background-image: repeating-linear-gradient(to top left, #00f, #0f0, #f00 50px);
 }
 
 .bg-gradient-t-green-blue-md {
@@ -9214,36 +9250,36 @@ video {
   background-image: repeating-linear-gradient(to top left, #f00, #0f0, #00f 100px);
 }
 
-.bg-gradient-t-black-white-with-stops-lg {
-  background-image: repeating-linear-gradient(to top, #000, #000 45%, #fff 55%, #fff 100px);
+.bg-gradient-t-blue-green-red-lg {
+  background-image: repeating-linear-gradient(to top, #00f, #0f0, #f00 100px);
 }
 
-.bg-gradient-tr-black-white-with-stops-lg {
-  background-image: repeating-linear-gradient(to top right, #000, #000 45%, #fff 55%, #fff 100px);
+.bg-gradient-tr-blue-green-red-lg {
+  background-image: repeating-linear-gradient(to top right, #00f, #0f0, #f00 100px);
 }
 
-.bg-gradient-r-black-white-with-stops-lg {
-  background-image: repeating-linear-gradient(to right, #000, #000 45%, #fff 55%, #fff 100px);
+.bg-gradient-r-blue-green-red-lg {
+  background-image: repeating-linear-gradient(to right, #00f, #0f0, #f00 100px);
 }
 
-.bg-gradient-br-black-white-with-stops-lg {
-  background-image: repeating-linear-gradient(to bottom right, #000, #000 45%, #fff 55%, #fff 100px);
+.bg-gradient-br-blue-green-red-lg {
+  background-image: repeating-linear-gradient(to bottom right, #00f, #0f0, #f00 100px);
 }
 
-.bg-gradient-b-black-white-with-stops-lg {
-  background-image: repeating-linear-gradient(#000, #000 45%, #fff 55%, #fff 100px);
+.bg-gradient-b-blue-green-red-lg {
+  background-image: repeating-linear-gradient(#00f, #0f0, #f00 100px);
 }
 
-.bg-gradient-bl-black-white-with-stops-lg {
-  background-image: repeating-linear-gradient(to bottom left, #000, #000 45%, #fff 55%, #fff 100px);
+.bg-gradient-bl-blue-green-red-lg {
+  background-image: repeating-linear-gradient(to bottom left, #00f, #0f0, #f00 100px);
 }
 
-.bg-gradient-l-black-white-with-stops-lg {
-  background-image: repeating-linear-gradient(to left, #000, #000 45%, #fff 55%, #fff 100px);
+.bg-gradient-l-blue-green-red-lg {
+  background-image: repeating-linear-gradient(to left, #00f, #0f0, #f00 100px);
 }
 
-.bg-gradient-tl-black-white-with-stops-lg {
-  background-image: repeating-linear-gradient(to top left, #000, #000 45%, #fff 55%, #fff 100px);
+.bg-gradient-tl-blue-green-red-lg {
+  background-image: repeating-linear-gradient(to top left, #00f, #0f0, #f00 100px);
 }
 
 .bg-gradient-t-green-blue-lg {
@@ -9384,6 +9420,42 @@ video {
 
 .bg-radial-tl-red-green-blue-sm {
   background-image: repeating-radial-gradient(at top left, #f00, #0f0, #00f 25px);
+}
+
+.bg-radial-blue-green-red-sm {
+  background-image: repeating-radial-gradient(#00f, #0f0, #f00 25px);
+}
+
+.bg-radial-t-blue-green-red-sm {
+  background-image: repeating-radial-gradient(at top, #00f, #0f0, #f00 25px);
+}
+
+.bg-radial-tr-blue-green-red-sm {
+  background-image: repeating-radial-gradient(at top right, #00f, #0f0, #f00 25px);
+}
+
+.bg-radial-r-blue-green-red-sm {
+  background-image: repeating-radial-gradient(at right, #00f, #0f0, #f00 25px);
+}
+
+.bg-radial-br-blue-green-red-sm {
+  background-image: repeating-radial-gradient(at bottom right, #00f, #0f0, #f00 25px);
+}
+
+.bg-radial-b-blue-green-red-sm {
+  background-image: repeating-radial-gradient(at bottom, #00f, #0f0, #f00 25px);
+}
+
+.bg-radial-bl-blue-green-red-sm {
+  background-image: repeating-radial-gradient(at bottom left, #00f, #0f0, #f00 25px);
+}
+
+.bg-radial-l-blue-green-red-sm {
+  background-image: repeating-radial-gradient(at left, #00f, #0f0, #f00 25px);
+}
+
+.bg-radial-tl-blue-green-red-sm {
+  background-image: repeating-radial-gradient(at top left, #00f, #0f0, #f00 25px);
 }
 
 .bg-radial-black-white-with-stops-sm {
@@ -9530,6 +9602,42 @@ video {
   background-image: repeating-radial-gradient(at top left, #f00, #0f0, #00f 50px);
 }
 
+.bg-radial-blue-green-red-md {
+  background-image: repeating-radial-gradient(#00f, #0f0, #f00 50px);
+}
+
+.bg-radial-t-blue-green-red-md {
+  background-image: repeating-radial-gradient(at top, #00f, #0f0, #f00 50px);
+}
+
+.bg-radial-tr-blue-green-red-md {
+  background-image: repeating-radial-gradient(at top right, #00f, #0f0, #f00 50px);
+}
+
+.bg-radial-r-blue-green-red-md {
+  background-image: repeating-radial-gradient(at right, #00f, #0f0, #f00 50px);
+}
+
+.bg-radial-br-blue-green-red-md {
+  background-image: repeating-radial-gradient(at bottom right, #00f, #0f0, #f00 50px);
+}
+
+.bg-radial-b-blue-green-red-md {
+  background-image: repeating-radial-gradient(at bottom, #00f, #0f0, #f00 50px);
+}
+
+.bg-radial-bl-blue-green-red-md {
+  background-image: repeating-radial-gradient(at bottom left, #00f, #0f0, #f00 50px);
+}
+
+.bg-radial-l-blue-green-red-md {
+  background-image: repeating-radial-gradient(at left, #00f, #0f0, #f00 50px);
+}
+
+.bg-radial-tl-blue-green-red-md {
+  background-image: repeating-radial-gradient(at top left, #00f, #0f0, #f00 50px);
+}
+
 .bg-radial-black-white-with-stops-md {
   background-image: repeating-radial-gradient(#000, #000 45%, #fff 55%, #fff 50px);
 }
@@ -9672,6 +9780,42 @@ video {
 
 .bg-radial-tl-red-green-blue-lg {
   background-image: repeating-radial-gradient(at top left, #f00, #0f0, #00f 100px);
+}
+
+.bg-radial-blue-green-red-lg {
+  background-image: repeating-radial-gradient(#00f, #0f0, #f00 100px);
+}
+
+.bg-radial-t-blue-green-red-lg {
+  background-image: repeating-radial-gradient(at top, #00f, #0f0, #f00 100px);
+}
+
+.bg-radial-tr-blue-green-red-lg {
+  background-image: repeating-radial-gradient(at top right, #00f, #0f0, #f00 100px);
+}
+
+.bg-radial-r-blue-green-red-lg {
+  background-image: repeating-radial-gradient(at right, #00f, #0f0, #f00 100px);
+}
+
+.bg-radial-br-blue-green-red-lg {
+  background-image: repeating-radial-gradient(at bottom right, #00f, #0f0, #f00 100px);
+}
+
+.bg-radial-b-blue-green-red-lg {
+  background-image: repeating-radial-gradient(at bottom, #00f, #0f0, #f00 100px);
+}
+
+.bg-radial-bl-blue-green-red-lg {
+  background-image: repeating-radial-gradient(at bottom left, #00f, #0f0, #f00 100px);
+}
+
+.bg-radial-l-blue-green-red-lg {
+  background-image: repeating-radial-gradient(at left, #00f, #0f0, #f00 100px);
+}
+
+.bg-radial-tl-blue-green-red-lg {
+  background-image: repeating-radial-gradient(at top left, #00f, #0f0, #f00 100px);
 }
 
 .bg-radial-black-white-with-stops-lg {
@@ -17979,36 +18123,36 @@ video {
     background-image: linear-gradient(to top left, #f00, #0f0, #00f);
   }
 
-  .sm\:bg-gradient-t-black-white-with-stops {
-    background-image: linear-gradient(to top, #000, #000 45%, #fff 55%, #fff);
+  .sm\:bg-gradient-t-blue-green-red {
+    background-image: linear-gradient(to top, #00f, #0f0, #f00);
   }
 
-  .sm\:bg-gradient-tr-black-white-with-stops {
-    background-image: linear-gradient(to top right, #000, #000 45%, #fff 55%, #fff);
+  .sm\:bg-gradient-tr-blue-green-red {
+    background-image: linear-gradient(to top right, #00f, #0f0, #f00);
   }
 
-  .sm\:bg-gradient-r-black-white-with-stops {
-    background-image: linear-gradient(to right, #000, #000 45%, #fff 55%, #fff);
+  .sm\:bg-gradient-r-blue-green-red {
+    background-image: linear-gradient(to right, #00f, #0f0, #f00);
   }
 
-  .sm\:bg-gradient-br-black-white-with-stops {
-    background-image: linear-gradient(to bottom right, #000, #000 45%, #fff 55%, #fff);
+  .sm\:bg-gradient-br-blue-green-red {
+    background-image: linear-gradient(to bottom right, #00f, #0f0, #f00);
   }
 
-  .sm\:bg-gradient-b-black-white-with-stops {
-    background-image: linear-gradient(#000, #000 45%, #fff 55%, #fff);
+  .sm\:bg-gradient-b-blue-green-red {
+    background-image: linear-gradient(#00f, #0f0, #f00);
   }
 
-  .sm\:bg-gradient-bl-black-white-with-stops {
-    background-image: linear-gradient(to bottom left, #000, #000 45%, #fff 55%, #fff);
+  .sm\:bg-gradient-bl-blue-green-red {
+    background-image: linear-gradient(to bottom left, #00f, #0f0, #f00);
   }
 
-  .sm\:bg-gradient-l-black-white-with-stops {
-    background-image: linear-gradient(to left, #000, #000 45%, #fff 55%, #fff);
+  .sm\:bg-gradient-l-blue-green-red {
+    background-image: linear-gradient(to left, #00f, #0f0, #f00);
   }
 
-  .sm\:bg-gradient-tl-black-white-with-stops {
-    background-image: linear-gradient(to top left, #000, #000 45%, #fff 55%, #fff);
+  .sm\:bg-gradient-tl-blue-green-red {
+    background-image: linear-gradient(to top left, #00f, #0f0, #f00);
   }
 
   .sm\:bg-gradient-t-green-blue {
@@ -18149,6 +18293,42 @@ video {
 
   .sm\:bg-radial-tl-red-green-blue {
     background-image: radial-gradient(closest-side at top left, #f00, #0f0, #00f);
+  }
+
+  .sm\:bg-radial-blue-green-red {
+    background-image: radial-gradient(closest-side, #00f, #0f0, #f00);
+  }
+
+  .sm\:bg-radial-t-blue-green-red {
+    background-image: radial-gradient(closest-side at top, #00f, #0f0, #f00);
+  }
+
+  .sm\:bg-radial-tr-blue-green-red {
+    background-image: radial-gradient(closest-side at top right, #00f, #0f0, #f00);
+  }
+
+  .sm\:bg-radial-r-blue-green-red {
+    background-image: radial-gradient(closest-side at right, #00f, #0f0, #f00);
+  }
+
+  .sm\:bg-radial-br-blue-green-red {
+    background-image: radial-gradient(closest-side at bottom right, #00f, #0f0, #f00);
+  }
+
+  .sm\:bg-radial-b-blue-green-red {
+    background-image: radial-gradient(closest-side at bottom, #00f, #0f0, #f00);
+  }
+
+  .sm\:bg-radial-bl-blue-green-red {
+    background-image: radial-gradient(closest-side at bottom left, #00f, #0f0, #f00);
+  }
+
+  .sm\:bg-radial-l-blue-green-red {
+    background-image: radial-gradient(closest-side at left, #00f, #0f0, #f00);
+  }
+
+  .sm\:bg-radial-tl-blue-green-red {
+    background-image: radial-gradient(closest-side at top left, #00f, #0f0, #f00);
   }
 
   .sm\:bg-radial-black-white-with-stops {
@@ -18427,36 +18607,36 @@ video {
     background-image: repeating-linear-gradient(to top left, #f00, #0f0, #00f 25px);
   }
 
-  .sm\:bg-gradient-t-black-white-with-stops-sm {
-    background-image: repeating-linear-gradient(to top, #000, #000 45%, #fff 55%, #fff 25px);
+  .sm\:bg-gradient-t-blue-green-red-sm {
+    background-image: repeating-linear-gradient(to top, #00f, #0f0, #f00 25px);
   }
 
-  .sm\:bg-gradient-tr-black-white-with-stops-sm {
-    background-image: repeating-linear-gradient(to top right, #000, #000 45%, #fff 55%, #fff 25px);
+  .sm\:bg-gradient-tr-blue-green-red-sm {
+    background-image: repeating-linear-gradient(to top right, #00f, #0f0, #f00 25px);
   }
 
-  .sm\:bg-gradient-r-black-white-with-stops-sm {
-    background-image: repeating-linear-gradient(to right, #000, #000 45%, #fff 55%, #fff 25px);
+  .sm\:bg-gradient-r-blue-green-red-sm {
+    background-image: repeating-linear-gradient(to right, #00f, #0f0, #f00 25px);
   }
 
-  .sm\:bg-gradient-br-black-white-with-stops-sm {
-    background-image: repeating-linear-gradient(to bottom right, #000, #000 45%, #fff 55%, #fff 25px);
+  .sm\:bg-gradient-br-blue-green-red-sm {
+    background-image: repeating-linear-gradient(to bottom right, #00f, #0f0, #f00 25px);
   }
 
-  .sm\:bg-gradient-b-black-white-with-stops-sm {
-    background-image: repeating-linear-gradient(#000, #000 45%, #fff 55%, #fff 25px);
+  .sm\:bg-gradient-b-blue-green-red-sm {
+    background-image: repeating-linear-gradient(#00f, #0f0, #f00 25px);
   }
 
-  .sm\:bg-gradient-bl-black-white-with-stops-sm {
-    background-image: repeating-linear-gradient(to bottom left, #000, #000 45%, #fff 55%, #fff 25px);
+  .sm\:bg-gradient-bl-blue-green-red-sm {
+    background-image: repeating-linear-gradient(to bottom left, #00f, #0f0, #f00 25px);
   }
 
-  .sm\:bg-gradient-l-black-white-with-stops-sm {
-    background-image: repeating-linear-gradient(to left, #000, #000 45%, #fff 55%, #fff 25px);
+  .sm\:bg-gradient-l-blue-green-red-sm {
+    background-image: repeating-linear-gradient(to left, #00f, #0f0, #f00 25px);
   }
 
-  .sm\:bg-gradient-tl-black-white-with-stops-sm {
-    background-image: repeating-linear-gradient(to top left, #000, #000 45%, #fff 55%, #fff 25px);
+  .sm\:bg-gradient-tl-blue-green-red-sm {
+    background-image: repeating-linear-gradient(to top left, #00f, #0f0, #f00 25px);
   }
 
   .sm\:bg-gradient-t-green-blue-sm {
@@ -18587,36 +18767,36 @@ video {
     background-image: repeating-linear-gradient(to top left, #f00, #0f0, #00f 50px);
   }
 
-  .sm\:bg-gradient-t-black-white-with-stops-md {
-    background-image: repeating-linear-gradient(to top, #000, #000 45%, #fff 55%, #fff 50px);
+  .sm\:bg-gradient-t-blue-green-red-md {
+    background-image: repeating-linear-gradient(to top, #00f, #0f0, #f00 50px);
   }
 
-  .sm\:bg-gradient-tr-black-white-with-stops-md {
-    background-image: repeating-linear-gradient(to top right, #000, #000 45%, #fff 55%, #fff 50px);
+  .sm\:bg-gradient-tr-blue-green-red-md {
+    background-image: repeating-linear-gradient(to top right, #00f, #0f0, #f00 50px);
   }
 
-  .sm\:bg-gradient-r-black-white-with-stops-md {
-    background-image: repeating-linear-gradient(to right, #000, #000 45%, #fff 55%, #fff 50px);
+  .sm\:bg-gradient-r-blue-green-red-md {
+    background-image: repeating-linear-gradient(to right, #00f, #0f0, #f00 50px);
   }
 
-  .sm\:bg-gradient-br-black-white-with-stops-md {
-    background-image: repeating-linear-gradient(to bottom right, #000, #000 45%, #fff 55%, #fff 50px);
+  .sm\:bg-gradient-br-blue-green-red-md {
+    background-image: repeating-linear-gradient(to bottom right, #00f, #0f0, #f00 50px);
   }
 
-  .sm\:bg-gradient-b-black-white-with-stops-md {
-    background-image: repeating-linear-gradient(#000, #000 45%, #fff 55%, #fff 50px);
+  .sm\:bg-gradient-b-blue-green-red-md {
+    background-image: repeating-linear-gradient(#00f, #0f0, #f00 50px);
   }
 
-  .sm\:bg-gradient-bl-black-white-with-stops-md {
-    background-image: repeating-linear-gradient(to bottom left, #000, #000 45%, #fff 55%, #fff 50px);
+  .sm\:bg-gradient-bl-blue-green-red-md {
+    background-image: repeating-linear-gradient(to bottom left, #00f, #0f0, #f00 50px);
   }
 
-  .sm\:bg-gradient-l-black-white-with-stops-md {
-    background-image: repeating-linear-gradient(to left, #000, #000 45%, #fff 55%, #fff 50px);
+  .sm\:bg-gradient-l-blue-green-red-md {
+    background-image: repeating-linear-gradient(to left, #00f, #0f0, #f00 50px);
   }
 
-  .sm\:bg-gradient-tl-black-white-with-stops-md {
-    background-image: repeating-linear-gradient(to top left, #000, #000 45%, #fff 55%, #fff 50px);
+  .sm\:bg-gradient-tl-blue-green-red-md {
+    background-image: repeating-linear-gradient(to top left, #00f, #0f0, #f00 50px);
   }
 
   .sm\:bg-gradient-t-green-blue-md {
@@ -18747,36 +18927,36 @@ video {
     background-image: repeating-linear-gradient(to top left, #f00, #0f0, #00f 100px);
   }
 
-  .sm\:bg-gradient-t-black-white-with-stops-lg {
-    background-image: repeating-linear-gradient(to top, #000, #000 45%, #fff 55%, #fff 100px);
+  .sm\:bg-gradient-t-blue-green-red-lg {
+    background-image: repeating-linear-gradient(to top, #00f, #0f0, #f00 100px);
   }
 
-  .sm\:bg-gradient-tr-black-white-with-stops-lg {
-    background-image: repeating-linear-gradient(to top right, #000, #000 45%, #fff 55%, #fff 100px);
+  .sm\:bg-gradient-tr-blue-green-red-lg {
+    background-image: repeating-linear-gradient(to top right, #00f, #0f0, #f00 100px);
   }
 
-  .sm\:bg-gradient-r-black-white-with-stops-lg {
-    background-image: repeating-linear-gradient(to right, #000, #000 45%, #fff 55%, #fff 100px);
+  .sm\:bg-gradient-r-blue-green-red-lg {
+    background-image: repeating-linear-gradient(to right, #00f, #0f0, #f00 100px);
   }
 
-  .sm\:bg-gradient-br-black-white-with-stops-lg {
-    background-image: repeating-linear-gradient(to bottom right, #000, #000 45%, #fff 55%, #fff 100px);
+  .sm\:bg-gradient-br-blue-green-red-lg {
+    background-image: repeating-linear-gradient(to bottom right, #00f, #0f0, #f00 100px);
   }
 
-  .sm\:bg-gradient-b-black-white-with-stops-lg {
-    background-image: repeating-linear-gradient(#000, #000 45%, #fff 55%, #fff 100px);
+  .sm\:bg-gradient-b-blue-green-red-lg {
+    background-image: repeating-linear-gradient(#00f, #0f0, #f00 100px);
   }
 
-  .sm\:bg-gradient-bl-black-white-with-stops-lg {
-    background-image: repeating-linear-gradient(to bottom left, #000, #000 45%, #fff 55%, #fff 100px);
+  .sm\:bg-gradient-bl-blue-green-red-lg {
+    background-image: repeating-linear-gradient(to bottom left, #00f, #0f0, #f00 100px);
   }
 
-  .sm\:bg-gradient-l-black-white-with-stops-lg {
-    background-image: repeating-linear-gradient(to left, #000, #000 45%, #fff 55%, #fff 100px);
+  .sm\:bg-gradient-l-blue-green-red-lg {
+    background-image: repeating-linear-gradient(to left, #00f, #0f0, #f00 100px);
   }
 
-  .sm\:bg-gradient-tl-black-white-with-stops-lg {
-    background-image: repeating-linear-gradient(to top left, #000, #000 45%, #fff 55%, #fff 100px);
+  .sm\:bg-gradient-tl-blue-green-red-lg {
+    background-image: repeating-linear-gradient(to top left, #00f, #0f0, #f00 100px);
   }
 
   .sm\:bg-gradient-t-green-blue-lg {
@@ -18917,6 +19097,42 @@ video {
 
   .sm\:bg-radial-tl-red-green-blue-sm {
     background-image: repeating-radial-gradient(at top left, #f00, #0f0, #00f 25px);
+  }
+
+  .sm\:bg-radial-blue-green-red-sm {
+    background-image: repeating-radial-gradient(#00f, #0f0, #f00 25px);
+  }
+
+  .sm\:bg-radial-t-blue-green-red-sm {
+    background-image: repeating-radial-gradient(at top, #00f, #0f0, #f00 25px);
+  }
+
+  .sm\:bg-radial-tr-blue-green-red-sm {
+    background-image: repeating-radial-gradient(at top right, #00f, #0f0, #f00 25px);
+  }
+
+  .sm\:bg-radial-r-blue-green-red-sm {
+    background-image: repeating-radial-gradient(at right, #00f, #0f0, #f00 25px);
+  }
+
+  .sm\:bg-radial-br-blue-green-red-sm {
+    background-image: repeating-radial-gradient(at bottom right, #00f, #0f0, #f00 25px);
+  }
+
+  .sm\:bg-radial-b-blue-green-red-sm {
+    background-image: repeating-radial-gradient(at bottom, #00f, #0f0, #f00 25px);
+  }
+
+  .sm\:bg-radial-bl-blue-green-red-sm {
+    background-image: repeating-radial-gradient(at bottom left, #00f, #0f0, #f00 25px);
+  }
+
+  .sm\:bg-radial-l-blue-green-red-sm {
+    background-image: repeating-radial-gradient(at left, #00f, #0f0, #f00 25px);
+  }
+
+  .sm\:bg-radial-tl-blue-green-red-sm {
+    background-image: repeating-radial-gradient(at top left, #00f, #0f0, #f00 25px);
   }
 
   .sm\:bg-radial-black-white-with-stops-sm {
@@ -19063,6 +19279,42 @@ video {
     background-image: repeating-radial-gradient(at top left, #f00, #0f0, #00f 50px);
   }
 
+  .sm\:bg-radial-blue-green-red-md {
+    background-image: repeating-radial-gradient(#00f, #0f0, #f00 50px);
+  }
+
+  .sm\:bg-radial-t-blue-green-red-md {
+    background-image: repeating-radial-gradient(at top, #00f, #0f0, #f00 50px);
+  }
+
+  .sm\:bg-radial-tr-blue-green-red-md {
+    background-image: repeating-radial-gradient(at top right, #00f, #0f0, #f00 50px);
+  }
+
+  .sm\:bg-radial-r-blue-green-red-md {
+    background-image: repeating-radial-gradient(at right, #00f, #0f0, #f00 50px);
+  }
+
+  .sm\:bg-radial-br-blue-green-red-md {
+    background-image: repeating-radial-gradient(at bottom right, #00f, #0f0, #f00 50px);
+  }
+
+  .sm\:bg-radial-b-blue-green-red-md {
+    background-image: repeating-radial-gradient(at bottom, #00f, #0f0, #f00 50px);
+  }
+
+  .sm\:bg-radial-bl-blue-green-red-md {
+    background-image: repeating-radial-gradient(at bottom left, #00f, #0f0, #f00 50px);
+  }
+
+  .sm\:bg-radial-l-blue-green-red-md {
+    background-image: repeating-radial-gradient(at left, #00f, #0f0, #f00 50px);
+  }
+
+  .sm\:bg-radial-tl-blue-green-red-md {
+    background-image: repeating-radial-gradient(at top left, #00f, #0f0, #f00 50px);
+  }
+
   .sm\:bg-radial-black-white-with-stops-md {
     background-image: repeating-radial-gradient(#000, #000 45%, #fff 55%, #fff 50px);
   }
@@ -19205,6 +19457,42 @@ video {
 
   .sm\:bg-radial-tl-red-green-blue-lg {
     background-image: repeating-radial-gradient(at top left, #f00, #0f0, #00f 100px);
+  }
+
+  .sm\:bg-radial-blue-green-red-lg {
+    background-image: repeating-radial-gradient(#00f, #0f0, #f00 100px);
+  }
+
+  .sm\:bg-radial-t-blue-green-red-lg {
+    background-image: repeating-radial-gradient(at top, #00f, #0f0, #f00 100px);
+  }
+
+  .sm\:bg-radial-tr-blue-green-red-lg {
+    background-image: repeating-radial-gradient(at top right, #00f, #0f0, #f00 100px);
+  }
+
+  .sm\:bg-radial-r-blue-green-red-lg {
+    background-image: repeating-radial-gradient(at right, #00f, #0f0, #f00 100px);
+  }
+
+  .sm\:bg-radial-br-blue-green-red-lg {
+    background-image: repeating-radial-gradient(at bottom right, #00f, #0f0, #f00 100px);
+  }
+
+  .sm\:bg-radial-b-blue-green-red-lg {
+    background-image: repeating-radial-gradient(at bottom, #00f, #0f0, #f00 100px);
+  }
+
+  .sm\:bg-radial-bl-blue-green-red-lg {
+    background-image: repeating-radial-gradient(at bottom left, #00f, #0f0, #f00 100px);
+  }
+
+  .sm\:bg-radial-l-blue-green-red-lg {
+    background-image: repeating-radial-gradient(at left, #00f, #0f0, #f00 100px);
+  }
+
+  .sm\:bg-radial-tl-blue-green-red-lg {
+    background-image: repeating-radial-gradient(at top left, #00f, #0f0, #f00 100px);
   }
 
   .sm\:bg-radial-black-white-with-stops-lg {
@@ -27513,36 +27801,36 @@ video {
     background-image: linear-gradient(to top left, #f00, #0f0, #00f);
   }
 
-  .md\:bg-gradient-t-black-white-with-stops {
-    background-image: linear-gradient(to top, #000, #000 45%, #fff 55%, #fff);
+  .md\:bg-gradient-t-blue-green-red {
+    background-image: linear-gradient(to top, #00f, #0f0, #f00);
   }
 
-  .md\:bg-gradient-tr-black-white-with-stops {
-    background-image: linear-gradient(to top right, #000, #000 45%, #fff 55%, #fff);
+  .md\:bg-gradient-tr-blue-green-red {
+    background-image: linear-gradient(to top right, #00f, #0f0, #f00);
   }
 
-  .md\:bg-gradient-r-black-white-with-stops {
-    background-image: linear-gradient(to right, #000, #000 45%, #fff 55%, #fff);
+  .md\:bg-gradient-r-blue-green-red {
+    background-image: linear-gradient(to right, #00f, #0f0, #f00);
   }
 
-  .md\:bg-gradient-br-black-white-with-stops {
-    background-image: linear-gradient(to bottom right, #000, #000 45%, #fff 55%, #fff);
+  .md\:bg-gradient-br-blue-green-red {
+    background-image: linear-gradient(to bottom right, #00f, #0f0, #f00);
   }
 
-  .md\:bg-gradient-b-black-white-with-stops {
-    background-image: linear-gradient(#000, #000 45%, #fff 55%, #fff);
+  .md\:bg-gradient-b-blue-green-red {
+    background-image: linear-gradient(#00f, #0f0, #f00);
   }
 
-  .md\:bg-gradient-bl-black-white-with-stops {
-    background-image: linear-gradient(to bottom left, #000, #000 45%, #fff 55%, #fff);
+  .md\:bg-gradient-bl-blue-green-red {
+    background-image: linear-gradient(to bottom left, #00f, #0f0, #f00);
   }
 
-  .md\:bg-gradient-l-black-white-with-stops {
-    background-image: linear-gradient(to left, #000, #000 45%, #fff 55%, #fff);
+  .md\:bg-gradient-l-blue-green-red {
+    background-image: linear-gradient(to left, #00f, #0f0, #f00);
   }
 
-  .md\:bg-gradient-tl-black-white-with-stops {
-    background-image: linear-gradient(to top left, #000, #000 45%, #fff 55%, #fff);
+  .md\:bg-gradient-tl-blue-green-red {
+    background-image: linear-gradient(to top left, #00f, #0f0, #f00);
   }
 
   .md\:bg-gradient-t-green-blue {
@@ -27683,6 +27971,42 @@ video {
 
   .md\:bg-radial-tl-red-green-blue {
     background-image: radial-gradient(closest-side at top left, #f00, #0f0, #00f);
+  }
+
+  .md\:bg-radial-blue-green-red {
+    background-image: radial-gradient(closest-side, #00f, #0f0, #f00);
+  }
+
+  .md\:bg-radial-t-blue-green-red {
+    background-image: radial-gradient(closest-side at top, #00f, #0f0, #f00);
+  }
+
+  .md\:bg-radial-tr-blue-green-red {
+    background-image: radial-gradient(closest-side at top right, #00f, #0f0, #f00);
+  }
+
+  .md\:bg-radial-r-blue-green-red {
+    background-image: radial-gradient(closest-side at right, #00f, #0f0, #f00);
+  }
+
+  .md\:bg-radial-br-blue-green-red {
+    background-image: radial-gradient(closest-side at bottom right, #00f, #0f0, #f00);
+  }
+
+  .md\:bg-radial-b-blue-green-red {
+    background-image: radial-gradient(closest-side at bottom, #00f, #0f0, #f00);
+  }
+
+  .md\:bg-radial-bl-blue-green-red {
+    background-image: radial-gradient(closest-side at bottom left, #00f, #0f0, #f00);
+  }
+
+  .md\:bg-radial-l-blue-green-red {
+    background-image: radial-gradient(closest-side at left, #00f, #0f0, #f00);
+  }
+
+  .md\:bg-radial-tl-blue-green-red {
+    background-image: radial-gradient(closest-side at top left, #00f, #0f0, #f00);
   }
 
   .md\:bg-radial-black-white-with-stops {
@@ -27961,36 +28285,36 @@ video {
     background-image: repeating-linear-gradient(to top left, #f00, #0f0, #00f 25px);
   }
 
-  .md\:bg-gradient-t-black-white-with-stops-sm {
-    background-image: repeating-linear-gradient(to top, #000, #000 45%, #fff 55%, #fff 25px);
+  .md\:bg-gradient-t-blue-green-red-sm {
+    background-image: repeating-linear-gradient(to top, #00f, #0f0, #f00 25px);
   }
 
-  .md\:bg-gradient-tr-black-white-with-stops-sm {
-    background-image: repeating-linear-gradient(to top right, #000, #000 45%, #fff 55%, #fff 25px);
+  .md\:bg-gradient-tr-blue-green-red-sm {
+    background-image: repeating-linear-gradient(to top right, #00f, #0f0, #f00 25px);
   }
 
-  .md\:bg-gradient-r-black-white-with-stops-sm {
-    background-image: repeating-linear-gradient(to right, #000, #000 45%, #fff 55%, #fff 25px);
+  .md\:bg-gradient-r-blue-green-red-sm {
+    background-image: repeating-linear-gradient(to right, #00f, #0f0, #f00 25px);
   }
 
-  .md\:bg-gradient-br-black-white-with-stops-sm {
-    background-image: repeating-linear-gradient(to bottom right, #000, #000 45%, #fff 55%, #fff 25px);
+  .md\:bg-gradient-br-blue-green-red-sm {
+    background-image: repeating-linear-gradient(to bottom right, #00f, #0f0, #f00 25px);
   }
 
-  .md\:bg-gradient-b-black-white-with-stops-sm {
-    background-image: repeating-linear-gradient(#000, #000 45%, #fff 55%, #fff 25px);
+  .md\:bg-gradient-b-blue-green-red-sm {
+    background-image: repeating-linear-gradient(#00f, #0f0, #f00 25px);
   }
 
-  .md\:bg-gradient-bl-black-white-with-stops-sm {
-    background-image: repeating-linear-gradient(to bottom left, #000, #000 45%, #fff 55%, #fff 25px);
+  .md\:bg-gradient-bl-blue-green-red-sm {
+    background-image: repeating-linear-gradient(to bottom left, #00f, #0f0, #f00 25px);
   }
 
-  .md\:bg-gradient-l-black-white-with-stops-sm {
-    background-image: repeating-linear-gradient(to left, #000, #000 45%, #fff 55%, #fff 25px);
+  .md\:bg-gradient-l-blue-green-red-sm {
+    background-image: repeating-linear-gradient(to left, #00f, #0f0, #f00 25px);
   }
 
-  .md\:bg-gradient-tl-black-white-with-stops-sm {
-    background-image: repeating-linear-gradient(to top left, #000, #000 45%, #fff 55%, #fff 25px);
+  .md\:bg-gradient-tl-blue-green-red-sm {
+    background-image: repeating-linear-gradient(to top left, #00f, #0f0, #f00 25px);
   }
 
   .md\:bg-gradient-t-green-blue-sm {
@@ -28121,36 +28445,36 @@ video {
     background-image: repeating-linear-gradient(to top left, #f00, #0f0, #00f 50px);
   }
 
-  .md\:bg-gradient-t-black-white-with-stops-md {
-    background-image: repeating-linear-gradient(to top, #000, #000 45%, #fff 55%, #fff 50px);
+  .md\:bg-gradient-t-blue-green-red-md {
+    background-image: repeating-linear-gradient(to top, #00f, #0f0, #f00 50px);
   }
 
-  .md\:bg-gradient-tr-black-white-with-stops-md {
-    background-image: repeating-linear-gradient(to top right, #000, #000 45%, #fff 55%, #fff 50px);
+  .md\:bg-gradient-tr-blue-green-red-md {
+    background-image: repeating-linear-gradient(to top right, #00f, #0f0, #f00 50px);
   }
 
-  .md\:bg-gradient-r-black-white-with-stops-md {
-    background-image: repeating-linear-gradient(to right, #000, #000 45%, #fff 55%, #fff 50px);
+  .md\:bg-gradient-r-blue-green-red-md {
+    background-image: repeating-linear-gradient(to right, #00f, #0f0, #f00 50px);
   }
 
-  .md\:bg-gradient-br-black-white-with-stops-md {
-    background-image: repeating-linear-gradient(to bottom right, #000, #000 45%, #fff 55%, #fff 50px);
+  .md\:bg-gradient-br-blue-green-red-md {
+    background-image: repeating-linear-gradient(to bottom right, #00f, #0f0, #f00 50px);
   }
 
-  .md\:bg-gradient-b-black-white-with-stops-md {
-    background-image: repeating-linear-gradient(#000, #000 45%, #fff 55%, #fff 50px);
+  .md\:bg-gradient-b-blue-green-red-md {
+    background-image: repeating-linear-gradient(#00f, #0f0, #f00 50px);
   }
 
-  .md\:bg-gradient-bl-black-white-with-stops-md {
-    background-image: repeating-linear-gradient(to bottom left, #000, #000 45%, #fff 55%, #fff 50px);
+  .md\:bg-gradient-bl-blue-green-red-md {
+    background-image: repeating-linear-gradient(to bottom left, #00f, #0f0, #f00 50px);
   }
 
-  .md\:bg-gradient-l-black-white-with-stops-md {
-    background-image: repeating-linear-gradient(to left, #000, #000 45%, #fff 55%, #fff 50px);
+  .md\:bg-gradient-l-blue-green-red-md {
+    background-image: repeating-linear-gradient(to left, #00f, #0f0, #f00 50px);
   }
 
-  .md\:bg-gradient-tl-black-white-with-stops-md {
-    background-image: repeating-linear-gradient(to top left, #000, #000 45%, #fff 55%, #fff 50px);
+  .md\:bg-gradient-tl-blue-green-red-md {
+    background-image: repeating-linear-gradient(to top left, #00f, #0f0, #f00 50px);
   }
 
   .md\:bg-gradient-t-green-blue-md {
@@ -28281,36 +28605,36 @@ video {
     background-image: repeating-linear-gradient(to top left, #f00, #0f0, #00f 100px);
   }
 
-  .md\:bg-gradient-t-black-white-with-stops-lg {
-    background-image: repeating-linear-gradient(to top, #000, #000 45%, #fff 55%, #fff 100px);
+  .md\:bg-gradient-t-blue-green-red-lg {
+    background-image: repeating-linear-gradient(to top, #00f, #0f0, #f00 100px);
   }
 
-  .md\:bg-gradient-tr-black-white-with-stops-lg {
-    background-image: repeating-linear-gradient(to top right, #000, #000 45%, #fff 55%, #fff 100px);
+  .md\:bg-gradient-tr-blue-green-red-lg {
+    background-image: repeating-linear-gradient(to top right, #00f, #0f0, #f00 100px);
   }
 
-  .md\:bg-gradient-r-black-white-with-stops-lg {
-    background-image: repeating-linear-gradient(to right, #000, #000 45%, #fff 55%, #fff 100px);
+  .md\:bg-gradient-r-blue-green-red-lg {
+    background-image: repeating-linear-gradient(to right, #00f, #0f0, #f00 100px);
   }
 
-  .md\:bg-gradient-br-black-white-with-stops-lg {
-    background-image: repeating-linear-gradient(to bottom right, #000, #000 45%, #fff 55%, #fff 100px);
+  .md\:bg-gradient-br-blue-green-red-lg {
+    background-image: repeating-linear-gradient(to bottom right, #00f, #0f0, #f00 100px);
   }
 
-  .md\:bg-gradient-b-black-white-with-stops-lg {
-    background-image: repeating-linear-gradient(#000, #000 45%, #fff 55%, #fff 100px);
+  .md\:bg-gradient-b-blue-green-red-lg {
+    background-image: repeating-linear-gradient(#00f, #0f0, #f00 100px);
   }
 
-  .md\:bg-gradient-bl-black-white-with-stops-lg {
-    background-image: repeating-linear-gradient(to bottom left, #000, #000 45%, #fff 55%, #fff 100px);
+  .md\:bg-gradient-bl-blue-green-red-lg {
+    background-image: repeating-linear-gradient(to bottom left, #00f, #0f0, #f00 100px);
   }
 
-  .md\:bg-gradient-l-black-white-with-stops-lg {
-    background-image: repeating-linear-gradient(to left, #000, #000 45%, #fff 55%, #fff 100px);
+  .md\:bg-gradient-l-blue-green-red-lg {
+    background-image: repeating-linear-gradient(to left, #00f, #0f0, #f00 100px);
   }
 
-  .md\:bg-gradient-tl-black-white-with-stops-lg {
-    background-image: repeating-linear-gradient(to top left, #000, #000 45%, #fff 55%, #fff 100px);
+  .md\:bg-gradient-tl-blue-green-red-lg {
+    background-image: repeating-linear-gradient(to top left, #00f, #0f0, #f00 100px);
   }
 
   .md\:bg-gradient-t-green-blue-lg {
@@ -28451,6 +28775,42 @@ video {
 
   .md\:bg-radial-tl-red-green-blue-sm {
     background-image: repeating-radial-gradient(at top left, #f00, #0f0, #00f 25px);
+  }
+
+  .md\:bg-radial-blue-green-red-sm {
+    background-image: repeating-radial-gradient(#00f, #0f0, #f00 25px);
+  }
+
+  .md\:bg-radial-t-blue-green-red-sm {
+    background-image: repeating-radial-gradient(at top, #00f, #0f0, #f00 25px);
+  }
+
+  .md\:bg-radial-tr-blue-green-red-sm {
+    background-image: repeating-radial-gradient(at top right, #00f, #0f0, #f00 25px);
+  }
+
+  .md\:bg-radial-r-blue-green-red-sm {
+    background-image: repeating-radial-gradient(at right, #00f, #0f0, #f00 25px);
+  }
+
+  .md\:bg-radial-br-blue-green-red-sm {
+    background-image: repeating-radial-gradient(at bottom right, #00f, #0f0, #f00 25px);
+  }
+
+  .md\:bg-radial-b-blue-green-red-sm {
+    background-image: repeating-radial-gradient(at bottom, #00f, #0f0, #f00 25px);
+  }
+
+  .md\:bg-radial-bl-blue-green-red-sm {
+    background-image: repeating-radial-gradient(at bottom left, #00f, #0f0, #f00 25px);
+  }
+
+  .md\:bg-radial-l-blue-green-red-sm {
+    background-image: repeating-radial-gradient(at left, #00f, #0f0, #f00 25px);
+  }
+
+  .md\:bg-radial-tl-blue-green-red-sm {
+    background-image: repeating-radial-gradient(at top left, #00f, #0f0, #f00 25px);
   }
 
   .md\:bg-radial-black-white-with-stops-sm {
@@ -28597,6 +28957,42 @@ video {
     background-image: repeating-radial-gradient(at top left, #f00, #0f0, #00f 50px);
   }
 
+  .md\:bg-radial-blue-green-red-md {
+    background-image: repeating-radial-gradient(#00f, #0f0, #f00 50px);
+  }
+
+  .md\:bg-radial-t-blue-green-red-md {
+    background-image: repeating-radial-gradient(at top, #00f, #0f0, #f00 50px);
+  }
+
+  .md\:bg-radial-tr-blue-green-red-md {
+    background-image: repeating-radial-gradient(at top right, #00f, #0f0, #f00 50px);
+  }
+
+  .md\:bg-radial-r-blue-green-red-md {
+    background-image: repeating-radial-gradient(at right, #00f, #0f0, #f00 50px);
+  }
+
+  .md\:bg-radial-br-blue-green-red-md {
+    background-image: repeating-radial-gradient(at bottom right, #00f, #0f0, #f00 50px);
+  }
+
+  .md\:bg-radial-b-blue-green-red-md {
+    background-image: repeating-radial-gradient(at bottom, #00f, #0f0, #f00 50px);
+  }
+
+  .md\:bg-radial-bl-blue-green-red-md {
+    background-image: repeating-radial-gradient(at bottom left, #00f, #0f0, #f00 50px);
+  }
+
+  .md\:bg-radial-l-blue-green-red-md {
+    background-image: repeating-radial-gradient(at left, #00f, #0f0, #f00 50px);
+  }
+
+  .md\:bg-radial-tl-blue-green-red-md {
+    background-image: repeating-radial-gradient(at top left, #00f, #0f0, #f00 50px);
+  }
+
   .md\:bg-radial-black-white-with-stops-md {
     background-image: repeating-radial-gradient(#000, #000 45%, #fff 55%, #fff 50px);
   }
@@ -28739,6 +29135,42 @@ video {
 
   .md\:bg-radial-tl-red-green-blue-lg {
     background-image: repeating-radial-gradient(at top left, #f00, #0f0, #00f 100px);
+  }
+
+  .md\:bg-radial-blue-green-red-lg {
+    background-image: repeating-radial-gradient(#00f, #0f0, #f00 100px);
+  }
+
+  .md\:bg-radial-t-blue-green-red-lg {
+    background-image: repeating-radial-gradient(at top, #00f, #0f0, #f00 100px);
+  }
+
+  .md\:bg-radial-tr-blue-green-red-lg {
+    background-image: repeating-radial-gradient(at top right, #00f, #0f0, #f00 100px);
+  }
+
+  .md\:bg-radial-r-blue-green-red-lg {
+    background-image: repeating-radial-gradient(at right, #00f, #0f0, #f00 100px);
+  }
+
+  .md\:bg-radial-br-blue-green-red-lg {
+    background-image: repeating-radial-gradient(at bottom right, #00f, #0f0, #f00 100px);
+  }
+
+  .md\:bg-radial-b-blue-green-red-lg {
+    background-image: repeating-radial-gradient(at bottom, #00f, #0f0, #f00 100px);
+  }
+
+  .md\:bg-radial-bl-blue-green-red-lg {
+    background-image: repeating-radial-gradient(at bottom left, #00f, #0f0, #f00 100px);
+  }
+
+  .md\:bg-radial-l-blue-green-red-lg {
+    background-image: repeating-radial-gradient(at left, #00f, #0f0, #f00 100px);
+  }
+
+  .md\:bg-radial-tl-blue-green-red-lg {
+    background-image: repeating-radial-gradient(at top left, #00f, #0f0, #f00 100px);
   }
 
   .md\:bg-radial-black-white-with-stops-lg {
@@ -37047,36 +37479,36 @@ video {
     background-image: linear-gradient(to top left, #f00, #0f0, #00f);
   }
 
-  .lg\:bg-gradient-t-black-white-with-stops {
-    background-image: linear-gradient(to top, #000, #000 45%, #fff 55%, #fff);
+  .lg\:bg-gradient-t-blue-green-red {
+    background-image: linear-gradient(to top, #00f, #0f0, #f00);
   }
 
-  .lg\:bg-gradient-tr-black-white-with-stops {
-    background-image: linear-gradient(to top right, #000, #000 45%, #fff 55%, #fff);
+  .lg\:bg-gradient-tr-blue-green-red {
+    background-image: linear-gradient(to top right, #00f, #0f0, #f00);
   }
 
-  .lg\:bg-gradient-r-black-white-with-stops {
-    background-image: linear-gradient(to right, #000, #000 45%, #fff 55%, #fff);
+  .lg\:bg-gradient-r-blue-green-red {
+    background-image: linear-gradient(to right, #00f, #0f0, #f00);
   }
 
-  .lg\:bg-gradient-br-black-white-with-stops {
-    background-image: linear-gradient(to bottom right, #000, #000 45%, #fff 55%, #fff);
+  .lg\:bg-gradient-br-blue-green-red {
+    background-image: linear-gradient(to bottom right, #00f, #0f0, #f00);
   }
 
-  .lg\:bg-gradient-b-black-white-with-stops {
-    background-image: linear-gradient(#000, #000 45%, #fff 55%, #fff);
+  .lg\:bg-gradient-b-blue-green-red {
+    background-image: linear-gradient(#00f, #0f0, #f00);
   }
 
-  .lg\:bg-gradient-bl-black-white-with-stops {
-    background-image: linear-gradient(to bottom left, #000, #000 45%, #fff 55%, #fff);
+  .lg\:bg-gradient-bl-blue-green-red {
+    background-image: linear-gradient(to bottom left, #00f, #0f0, #f00);
   }
 
-  .lg\:bg-gradient-l-black-white-with-stops {
-    background-image: linear-gradient(to left, #000, #000 45%, #fff 55%, #fff);
+  .lg\:bg-gradient-l-blue-green-red {
+    background-image: linear-gradient(to left, #00f, #0f0, #f00);
   }
 
-  .lg\:bg-gradient-tl-black-white-with-stops {
-    background-image: linear-gradient(to top left, #000, #000 45%, #fff 55%, #fff);
+  .lg\:bg-gradient-tl-blue-green-red {
+    background-image: linear-gradient(to top left, #00f, #0f0, #f00);
   }
 
   .lg\:bg-gradient-t-green-blue {
@@ -37217,6 +37649,42 @@ video {
 
   .lg\:bg-radial-tl-red-green-blue {
     background-image: radial-gradient(closest-side at top left, #f00, #0f0, #00f);
+  }
+
+  .lg\:bg-radial-blue-green-red {
+    background-image: radial-gradient(closest-side, #00f, #0f0, #f00);
+  }
+
+  .lg\:bg-radial-t-blue-green-red {
+    background-image: radial-gradient(closest-side at top, #00f, #0f0, #f00);
+  }
+
+  .lg\:bg-radial-tr-blue-green-red {
+    background-image: radial-gradient(closest-side at top right, #00f, #0f0, #f00);
+  }
+
+  .lg\:bg-radial-r-blue-green-red {
+    background-image: radial-gradient(closest-side at right, #00f, #0f0, #f00);
+  }
+
+  .lg\:bg-radial-br-blue-green-red {
+    background-image: radial-gradient(closest-side at bottom right, #00f, #0f0, #f00);
+  }
+
+  .lg\:bg-radial-b-blue-green-red {
+    background-image: radial-gradient(closest-side at bottom, #00f, #0f0, #f00);
+  }
+
+  .lg\:bg-radial-bl-blue-green-red {
+    background-image: radial-gradient(closest-side at bottom left, #00f, #0f0, #f00);
+  }
+
+  .lg\:bg-radial-l-blue-green-red {
+    background-image: radial-gradient(closest-side at left, #00f, #0f0, #f00);
+  }
+
+  .lg\:bg-radial-tl-blue-green-red {
+    background-image: radial-gradient(closest-side at top left, #00f, #0f0, #f00);
   }
 
   .lg\:bg-radial-black-white-with-stops {
@@ -37495,36 +37963,36 @@ video {
     background-image: repeating-linear-gradient(to top left, #f00, #0f0, #00f 25px);
   }
 
-  .lg\:bg-gradient-t-black-white-with-stops-sm {
-    background-image: repeating-linear-gradient(to top, #000, #000 45%, #fff 55%, #fff 25px);
+  .lg\:bg-gradient-t-blue-green-red-sm {
+    background-image: repeating-linear-gradient(to top, #00f, #0f0, #f00 25px);
   }
 
-  .lg\:bg-gradient-tr-black-white-with-stops-sm {
-    background-image: repeating-linear-gradient(to top right, #000, #000 45%, #fff 55%, #fff 25px);
+  .lg\:bg-gradient-tr-blue-green-red-sm {
+    background-image: repeating-linear-gradient(to top right, #00f, #0f0, #f00 25px);
   }
 
-  .lg\:bg-gradient-r-black-white-with-stops-sm {
-    background-image: repeating-linear-gradient(to right, #000, #000 45%, #fff 55%, #fff 25px);
+  .lg\:bg-gradient-r-blue-green-red-sm {
+    background-image: repeating-linear-gradient(to right, #00f, #0f0, #f00 25px);
   }
 
-  .lg\:bg-gradient-br-black-white-with-stops-sm {
-    background-image: repeating-linear-gradient(to bottom right, #000, #000 45%, #fff 55%, #fff 25px);
+  .lg\:bg-gradient-br-blue-green-red-sm {
+    background-image: repeating-linear-gradient(to bottom right, #00f, #0f0, #f00 25px);
   }
 
-  .lg\:bg-gradient-b-black-white-with-stops-sm {
-    background-image: repeating-linear-gradient(#000, #000 45%, #fff 55%, #fff 25px);
+  .lg\:bg-gradient-b-blue-green-red-sm {
+    background-image: repeating-linear-gradient(#00f, #0f0, #f00 25px);
   }
 
-  .lg\:bg-gradient-bl-black-white-with-stops-sm {
-    background-image: repeating-linear-gradient(to bottom left, #000, #000 45%, #fff 55%, #fff 25px);
+  .lg\:bg-gradient-bl-blue-green-red-sm {
+    background-image: repeating-linear-gradient(to bottom left, #00f, #0f0, #f00 25px);
   }
 
-  .lg\:bg-gradient-l-black-white-with-stops-sm {
-    background-image: repeating-linear-gradient(to left, #000, #000 45%, #fff 55%, #fff 25px);
+  .lg\:bg-gradient-l-blue-green-red-sm {
+    background-image: repeating-linear-gradient(to left, #00f, #0f0, #f00 25px);
   }
 
-  .lg\:bg-gradient-tl-black-white-with-stops-sm {
-    background-image: repeating-linear-gradient(to top left, #000, #000 45%, #fff 55%, #fff 25px);
+  .lg\:bg-gradient-tl-blue-green-red-sm {
+    background-image: repeating-linear-gradient(to top left, #00f, #0f0, #f00 25px);
   }
 
   .lg\:bg-gradient-t-green-blue-sm {
@@ -37655,36 +38123,36 @@ video {
     background-image: repeating-linear-gradient(to top left, #f00, #0f0, #00f 50px);
   }
 
-  .lg\:bg-gradient-t-black-white-with-stops-md {
-    background-image: repeating-linear-gradient(to top, #000, #000 45%, #fff 55%, #fff 50px);
+  .lg\:bg-gradient-t-blue-green-red-md {
+    background-image: repeating-linear-gradient(to top, #00f, #0f0, #f00 50px);
   }
 
-  .lg\:bg-gradient-tr-black-white-with-stops-md {
-    background-image: repeating-linear-gradient(to top right, #000, #000 45%, #fff 55%, #fff 50px);
+  .lg\:bg-gradient-tr-blue-green-red-md {
+    background-image: repeating-linear-gradient(to top right, #00f, #0f0, #f00 50px);
   }
 
-  .lg\:bg-gradient-r-black-white-with-stops-md {
-    background-image: repeating-linear-gradient(to right, #000, #000 45%, #fff 55%, #fff 50px);
+  .lg\:bg-gradient-r-blue-green-red-md {
+    background-image: repeating-linear-gradient(to right, #00f, #0f0, #f00 50px);
   }
 
-  .lg\:bg-gradient-br-black-white-with-stops-md {
-    background-image: repeating-linear-gradient(to bottom right, #000, #000 45%, #fff 55%, #fff 50px);
+  .lg\:bg-gradient-br-blue-green-red-md {
+    background-image: repeating-linear-gradient(to bottom right, #00f, #0f0, #f00 50px);
   }
 
-  .lg\:bg-gradient-b-black-white-with-stops-md {
-    background-image: repeating-linear-gradient(#000, #000 45%, #fff 55%, #fff 50px);
+  .lg\:bg-gradient-b-blue-green-red-md {
+    background-image: repeating-linear-gradient(#00f, #0f0, #f00 50px);
   }
 
-  .lg\:bg-gradient-bl-black-white-with-stops-md {
-    background-image: repeating-linear-gradient(to bottom left, #000, #000 45%, #fff 55%, #fff 50px);
+  .lg\:bg-gradient-bl-blue-green-red-md {
+    background-image: repeating-linear-gradient(to bottom left, #00f, #0f0, #f00 50px);
   }
 
-  .lg\:bg-gradient-l-black-white-with-stops-md {
-    background-image: repeating-linear-gradient(to left, #000, #000 45%, #fff 55%, #fff 50px);
+  .lg\:bg-gradient-l-blue-green-red-md {
+    background-image: repeating-linear-gradient(to left, #00f, #0f0, #f00 50px);
   }
 
-  .lg\:bg-gradient-tl-black-white-with-stops-md {
-    background-image: repeating-linear-gradient(to top left, #000, #000 45%, #fff 55%, #fff 50px);
+  .lg\:bg-gradient-tl-blue-green-red-md {
+    background-image: repeating-linear-gradient(to top left, #00f, #0f0, #f00 50px);
   }
 
   .lg\:bg-gradient-t-green-blue-md {
@@ -37815,36 +38283,36 @@ video {
     background-image: repeating-linear-gradient(to top left, #f00, #0f0, #00f 100px);
   }
 
-  .lg\:bg-gradient-t-black-white-with-stops-lg {
-    background-image: repeating-linear-gradient(to top, #000, #000 45%, #fff 55%, #fff 100px);
+  .lg\:bg-gradient-t-blue-green-red-lg {
+    background-image: repeating-linear-gradient(to top, #00f, #0f0, #f00 100px);
   }
 
-  .lg\:bg-gradient-tr-black-white-with-stops-lg {
-    background-image: repeating-linear-gradient(to top right, #000, #000 45%, #fff 55%, #fff 100px);
+  .lg\:bg-gradient-tr-blue-green-red-lg {
+    background-image: repeating-linear-gradient(to top right, #00f, #0f0, #f00 100px);
   }
 
-  .lg\:bg-gradient-r-black-white-with-stops-lg {
-    background-image: repeating-linear-gradient(to right, #000, #000 45%, #fff 55%, #fff 100px);
+  .lg\:bg-gradient-r-blue-green-red-lg {
+    background-image: repeating-linear-gradient(to right, #00f, #0f0, #f00 100px);
   }
 
-  .lg\:bg-gradient-br-black-white-with-stops-lg {
-    background-image: repeating-linear-gradient(to bottom right, #000, #000 45%, #fff 55%, #fff 100px);
+  .lg\:bg-gradient-br-blue-green-red-lg {
+    background-image: repeating-linear-gradient(to bottom right, #00f, #0f0, #f00 100px);
   }
 
-  .lg\:bg-gradient-b-black-white-with-stops-lg {
-    background-image: repeating-linear-gradient(#000, #000 45%, #fff 55%, #fff 100px);
+  .lg\:bg-gradient-b-blue-green-red-lg {
+    background-image: repeating-linear-gradient(#00f, #0f0, #f00 100px);
   }
 
-  .lg\:bg-gradient-bl-black-white-with-stops-lg {
-    background-image: repeating-linear-gradient(to bottom left, #000, #000 45%, #fff 55%, #fff 100px);
+  .lg\:bg-gradient-bl-blue-green-red-lg {
+    background-image: repeating-linear-gradient(to bottom left, #00f, #0f0, #f00 100px);
   }
 
-  .lg\:bg-gradient-l-black-white-with-stops-lg {
-    background-image: repeating-linear-gradient(to left, #000, #000 45%, #fff 55%, #fff 100px);
+  .lg\:bg-gradient-l-blue-green-red-lg {
+    background-image: repeating-linear-gradient(to left, #00f, #0f0, #f00 100px);
   }
 
-  .lg\:bg-gradient-tl-black-white-with-stops-lg {
-    background-image: repeating-linear-gradient(to top left, #000, #000 45%, #fff 55%, #fff 100px);
+  .lg\:bg-gradient-tl-blue-green-red-lg {
+    background-image: repeating-linear-gradient(to top left, #00f, #0f0, #f00 100px);
   }
 
   .lg\:bg-gradient-t-green-blue-lg {
@@ -37985,6 +38453,42 @@ video {
 
   .lg\:bg-radial-tl-red-green-blue-sm {
     background-image: repeating-radial-gradient(at top left, #f00, #0f0, #00f 25px);
+  }
+
+  .lg\:bg-radial-blue-green-red-sm {
+    background-image: repeating-radial-gradient(#00f, #0f0, #f00 25px);
+  }
+
+  .lg\:bg-radial-t-blue-green-red-sm {
+    background-image: repeating-radial-gradient(at top, #00f, #0f0, #f00 25px);
+  }
+
+  .lg\:bg-radial-tr-blue-green-red-sm {
+    background-image: repeating-radial-gradient(at top right, #00f, #0f0, #f00 25px);
+  }
+
+  .lg\:bg-radial-r-blue-green-red-sm {
+    background-image: repeating-radial-gradient(at right, #00f, #0f0, #f00 25px);
+  }
+
+  .lg\:bg-radial-br-blue-green-red-sm {
+    background-image: repeating-radial-gradient(at bottom right, #00f, #0f0, #f00 25px);
+  }
+
+  .lg\:bg-radial-b-blue-green-red-sm {
+    background-image: repeating-radial-gradient(at bottom, #00f, #0f0, #f00 25px);
+  }
+
+  .lg\:bg-radial-bl-blue-green-red-sm {
+    background-image: repeating-radial-gradient(at bottom left, #00f, #0f0, #f00 25px);
+  }
+
+  .lg\:bg-radial-l-blue-green-red-sm {
+    background-image: repeating-radial-gradient(at left, #00f, #0f0, #f00 25px);
+  }
+
+  .lg\:bg-radial-tl-blue-green-red-sm {
+    background-image: repeating-radial-gradient(at top left, #00f, #0f0, #f00 25px);
   }
 
   .lg\:bg-radial-black-white-with-stops-sm {
@@ -38131,6 +38635,42 @@ video {
     background-image: repeating-radial-gradient(at top left, #f00, #0f0, #00f 50px);
   }
 
+  .lg\:bg-radial-blue-green-red-md {
+    background-image: repeating-radial-gradient(#00f, #0f0, #f00 50px);
+  }
+
+  .lg\:bg-radial-t-blue-green-red-md {
+    background-image: repeating-radial-gradient(at top, #00f, #0f0, #f00 50px);
+  }
+
+  .lg\:bg-radial-tr-blue-green-red-md {
+    background-image: repeating-radial-gradient(at top right, #00f, #0f0, #f00 50px);
+  }
+
+  .lg\:bg-radial-r-blue-green-red-md {
+    background-image: repeating-radial-gradient(at right, #00f, #0f0, #f00 50px);
+  }
+
+  .lg\:bg-radial-br-blue-green-red-md {
+    background-image: repeating-radial-gradient(at bottom right, #00f, #0f0, #f00 50px);
+  }
+
+  .lg\:bg-radial-b-blue-green-red-md {
+    background-image: repeating-radial-gradient(at bottom, #00f, #0f0, #f00 50px);
+  }
+
+  .lg\:bg-radial-bl-blue-green-red-md {
+    background-image: repeating-radial-gradient(at bottom left, #00f, #0f0, #f00 50px);
+  }
+
+  .lg\:bg-radial-l-blue-green-red-md {
+    background-image: repeating-radial-gradient(at left, #00f, #0f0, #f00 50px);
+  }
+
+  .lg\:bg-radial-tl-blue-green-red-md {
+    background-image: repeating-radial-gradient(at top left, #00f, #0f0, #f00 50px);
+  }
+
   .lg\:bg-radial-black-white-with-stops-md {
     background-image: repeating-radial-gradient(#000, #000 45%, #fff 55%, #fff 50px);
   }
@@ -38273,6 +38813,42 @@ video {
 
   .lg\:bg-radial-tl-red-green-blue-lg {
     background-image: repeating-radial-gradient(at top left, #f00, #0f0, #00f 100px);
+  }
+
+  .lg\:bg-radial-blue-green-red-lg {
+    background-image: repeating-radial-gradient(#00f, #0f0, #f00 100px);
+  }
+
+  .lg\:bg-radial-t-blue-green-red-lg {
+    background-image: repeating-radial-gradient(at top, #00f, #0f0, #f00 100px);
+  }
+
+  .lg\:bg-radial-tr-blue-green-red-lg {
+    background-image: repeating-radial-gradient(at top right, #00f, #0f0, #f00 100px);
+  }
+
+  .lg\:bg-radial-r-blue-green-red-lg {
+    background-image: repeating-radial-gradient(at right, #00f, #0f0, #f00 100px);
+  }
+
+  .lg\:bg-radial-br-blue-green-red-lg {
+    background-image: repeating-radial-gradient(at bottom right, #00f, #0f0, #f00 100px);
+  }
+
+  .lg\:bg-radial-b-blue-green-red-lg {
+    background-image: repeating-radial-gradient(at bottom, #00f, #0f0, #f00 100px);
+  }
+
+  .lg\:bg-radial-bl-blue-green-red-lg {
+    background-image: repeating-radial-gradient(at bottom left, #00f, #0f0, #f00 100px);
+  }
+
+  .lg\:bg-radial-l-blue-green-red-lg {
+    background-image: repeating-radial-gradient(at left, #00f, #0f0, #f00 100px);
+  }
+
+  .lg\:bg-radial-tl-blue-green-red-lg {
+    background-image: repeating-radial-gradient(at top left, #00f, #0f0, #f00 100px);
   }
 
   .lg\:bg-radial-black-white-with-stops-lg {
@@ -46581,36 +47157,36 @@ video {
     background-image: linear-gradient(to top left, #f00, #0f0, #00f);
   }
 
-  .xl\:bg-gradient-t-black-white-with-stops {
-    background-image: linear-gradient(to top, #000, #000 45%, #fff 55%, #fff);
+  .xl\:bg-gradient-t-blue-green-red {
+    background-image: linear-gradient(to top, #00f, #0f0, #f00);
   }
 
-  .xl\:bg-gradient-tr-black-white-with-stops {
-    background-image: linear-gradient(to top right, #000, #000 45%, #fff 55%, #fff);
+  .xl\:bg-gradient-tr-blue-green-red {
+    background-image: linear-gradient(to top right, #00f, #0f0, #f00);
   }
 
-  .xl\:bg-gradient-r-black-white-with-stops {
-    background-image: linear-gradient(to right, #000, #000 45%, #fff 55%, #fff);
+  .xl\:bg-gradient-r-blue-green-red {
+    background-image: linear-gradient(to right, #00f, #0f0, #f00);
   }
 
-  .xl\:bg-gradient-br-black-white-with-stops {
-    background-image: linear-gradient(to bottom right, #000, #000 45%, #fff 55%, #fff);
+  .xl\:bg-gradient-br-blue-green-red {
+    background-image: linear-gradient(to bottom right, #00f, #0f0, #f00);
   }
 
-  .xl\:bg-gradient-b-black-white-with-stops {
-    background-image: linear-gradient(#000, #000 45%, #fff 55%, #fff);
+  .xl\:bg-gradient-b-blue-green-red {
+    background-image: linear-gradient(#00f, #0f0, #f00);
   }
 
-  .xl\:bg-gradient-bl-black-white-with-stops {
-    background-image: linear-gradient(to bottom left, #000, #000 45%, #fff 55%, #fff);
+  .xl\:bg-gradient-bl-blue-green-red {
+    background-image: linear-gradient(to bottom left, #00f, #0f0, #f00);
   }
 
-  .xl\:bg-gradient-l-black-white-with-stops {
-    background-image: linear-gradient(to left, #000, #000 45%, #fff 55%, #fff);
+  .xl\:bg-gradient-l-blue-green-red {
+    background-image: linear-gradient(to left, #00f, #0f0, #f00);
   }
 
-  .xl\:bg-gradient-tl-black-white-with-stops {
-    background-image: linear-gradient(to top left, #000, #000 45%, #fff 55%, #fff);
+  .xl\:bg-gradient-tl-blue-green-red {
+    background-image: linear-gradient(to top left, #00f, #0f0, #f00);
   }
 
   .xl\:bg-gradient-t-green-blue {
@@ -46751,6 +47327,42 @@ video {
 
   .xl\:bg-radial-tl-red-green-blue {
     background-image: radial-gradient(closest-side at top left, #f00, #0f0, #00f);
+  }
+
+  .xl\:bg-radial-blue-green-red {
+    background-image: radial-gradient(closest-side, #00f, #0f0, #f00);
+  }
+
+  .xl\:bg-radial-t-blue-green-red {
+    background-image: radial-gradient(closest-side at top, #00f, #0f0, #f00);
+  }
+
+  .xl\:bg-radial-tr-blue-green-red {
+    background-image: radial-gradient(closest-side at top right, #00f, #0f0, #f00);
+  }
+
+  .xl\:bg-radial-r-blue-green-red {
+    background-image: radial-gradient(closest-side at right, #00f, #0f0, #f00);
+  }
+
+  .xl\:bg-radial-br-blue-green-red {
+    background-image: radial-gradient(closest-side at bottom right, #00f, #0f0, #f00);
+  }
+
+  .xl\:bg-radial-b-blue-green-red {
+    background-image: radial-gradient(closest-side at bottom, #00f, #0f0, #f00);
+  }
+
+  .xl\:bg-radial-bl-blue-green-red {
+    background-image: radial-gradient(closest-side at bottom left, #00f, #0f0, #f00);
+  }
+
+  .xl\:bg-radial-l-blue-green-red {
+    background-image: radial-gradient(closest-side at left, #00f, #0f0, #f00);
+  }
+
+  .xl\:bg-radial-tl-blue-green-red {
+    background-image: radial-gradient(closest-side at top left, #00f, #0f0, #f00);
   }
 
   .xl\:bg-radial-black-white-with-stops {
@@ -47029,36 +47641,36 @@ video {
     background-image: repeating-linear-gradient(to top left, #f00, #0f0, #00f 25px);
   }
 
-  .xl\:bg-gradient-t-black-white-with-stops-sm {
-    background-image: repeating-linear-gradient(to top, #000, #000 45%, #fff 55%, #fff 25px);
+  .xl\:bg-gradient-t-blue-green-red-sm {
+    background-image: repeating-linear-gradient(to top, #00f, #0f0, #f00 25px);
   }
 
-  .xl\:bg-gradient-tr-black-white-with-stops-sm {
-    background-image: repeating-linear-gradient(to top right, #000, #000 45%, #fff 55%, #fff 25px);
+  .xl\:bg-gradient-tr-blue-green-red-sm {
+    background-image: repeating-linear-gradient(to top right, #00f, #0f0, #f00 25px);
   }
 
-  .xl\:bg-gradient-r-black-white-with-stops-sm {
-    background-image: repeating-linear-gradient(to right, #000, #000 45%, #fff 55%, #fff 25px);
+  .xl\:bg-gradient-r-blue-green-red-sm {
+    background-image: repeating-linear-gradient(to right, #00f, #0f0, #f00 25px);
   }
 
-  .xl\:bg-gradient-br-black-white-with-stops-sm {
-    background-image: repeating-linear-gradient(to bottom right, #000, #000 45%, #fff 55%, #fff 25px);
+  .xl\:bg-gradient-br-blue-green-red-sm {
+    background-image: repeating-linear-gradient(to bottom right, #00f, #0f0, #f00 25px);
   }
 
-  .xl\:bg-gradient-b-black-white-with-stops-sm {
-    background-image: repeating-linear-gradient(#000, #000 45%, #fff 55%, #fff 25px);
+  .xl\:bg-gradient-b-blue-green-red-sm {
+    background-image: repeating-linear-gradient(#00f, #0f0, #f00 25px);
   }
 
-  .xl\:bg-gradient-bl-black-white-with-stops-sm {
-    background-image: repeating-linear-gradient(to bottom left, #000, #000 45%, #fff 55%, #fff 25px);
+  .xl\:bg-gradient-bl-blue-green-red-sm {
+    background-image: repeating-linear-gradient(to bottom left, #00f, #0f0, #f00 25px);
   }
 
-  .xl\:bg-gradient-l-black-white-with-stops-sm {
-    background-image: repeating-linear-gradient(to left, #000, #000 45%, #fff 55%, #fff 25px);
+  .xl\:bg-gradient-l-blue-green-red-sm {
+    background-image: repeating-linear-gradient(to left, #00f, #0f0, #f00 25px);
   }
 
-  .xl\:bg-gradient-tl-black-white-with-stops-sm {
-    background-image: repeating-linear-gradient(to top left, #000, #000 45%, #fff 55%, #fff 25px);
+  .xl\:bg-gradient-tl-blue-green-red-sm {
+    background-image: repeating-linear-gradient(to top left, #00f, #0f0, #f00 25px);
   }
 
   .xl\:bg-gradient-t-green-blue-sm {
@@ -47189,36 +47801,36 @@ video {
     background-image: repeating-linear-gradient(to top left, #f00, #0f0, #00f 50px);
   }
 
-  .xl\:bg-gradient-t-black-white-with-stops-md {
-    background-image: repeating-linear-gradient(to top, #000, #000 45%, #fff 55%, #fff 50px);
+  .xl\:bg-gradient-t-blue-green-red-md {
+    background-image: repeating-linear-gradient(to top, #00f, #0f0, #f00 50px);
   }
 
-  .xl\:bg-gradient-tr-black-white-with-stops-md {
-    background-image: repeating-linear-gradient(to top right, #000, #000 45%, #fff 55%, #fff 50px);
+  .xl\:bg-gradient-tr-blue-green-red-md {
+    background-image: repeating-linear-gradient(to top right, #00f, #0f0, #f00 50px);
   }
 
-  .xl\:bg-gradient-r-black-white-with-stops-md {
-    background-image: repeating-linear-gradient(to right, #000, #000 45%, #fff 55%, #fff 50px);
+  .xl\:bg-gradient-r-blue-green-red-md {
+    background-image: repeating-linear-gradient(to right, #00f, #0f0, #f00 50px);
   }
 
-  .xl\:bg-gradient-br-black-white-with-stops-md {
-    background-image: repeating-linear-gradient(to bottom right, #000, #000 45%, #fff 55%, #fff 50px);
+  .xl\:bg-gradient-br-blue-green-red-md {
+    background-image: repeating-linear-gradient(to bottom right, #00f, #0f0, #f00 50px);
   }
 
-  .xl\:bg-gradient-b-black-white-with-stops-md {
-    background-image: repeating-linear-gradient(#000, #000 45%, #fff 55%, #fff 50px);
+  .xl\:bg-gradient-b-blue-green-red-md {
+    background-image: repeating-linear-gradient(#00f, #0f0, #f00 50px);
   }
 
-  .xl\:bg-gradient-bl-black-white-with-stops-md {
-    background-image: repeating-linear-gradient(to bottom left, #000, #000 45%, #fff 55%, #fff 50px);
+  .xl\:bg-gradient-bl-blue-green-red-md {
+    background-image: repeating-linear-gradient(to bottom left, #00f, #0f0, #f00 50px);
   }
 
-  .xl\:bg-gradient-l-black-white-with-stops-md {
-    background-image: repeating-linear-gradient(to left, #000, #000 45%, #fff 55%, #fff 50px);
+  .xl\:bg-gradient-l-blue-green-red-md {
+    background-image: repeating-linear-gradient(to left, #00f, #0f0, #f00 50px);
   }
 
-  .xl\:bg-gradient-tl-black-white-with-stops-md {
-    background-image: repeating-linear-gradient(to top left, #000, #000 45%, #fff 55%, #fff 50px);
+  .xl\:bg-gradient-tl-blue-green-red-md {
+    background-image: repeating-linear-gradient(to top left, #00f, #0f0, #f00 50px);
   }
 
   .xl\:bg-gradient-t-green-blue-md {
@@ -47349,36 +47961,36 @@ video {
     background-image: repeating-linear-gradient(to top left, #f00, #0f0, #00f 100px);
   }
 
-  .xl\:bg-gradient-t-black-white-with-stops-lg {
-    background-image: repeating-linear-gradient(to top, #000, #000 45%, #fff 55%, #fff 100px);
+  .xl\:bg-gradient-t-blue-green-red-lg {
+    background-image: repeating-linear-gradient(to top, #00f, #0f0, #f00 100px);
   }
 
-  .xl\:bg-gradient-tr-black-white-with-stops-lg {
-    background-image: repeating-linear-gradient(to top right, #000, #000 45%, #fff 55%, #fff 100px);
+  .xl\:bg-gradient-tr-blue-green-red-lg {
+    background-image: repeating-linear-gradient(to top right, #00f, #0f0, #f00 100px);
   }
 
-  .xl\:bg-gradient-r-black-white-with-stops-lg {
-    background-image: repeating-linear-gradient(to right, #000, #000 45%, #fff 55%, #fff 100px);
+  .xl\:bg-gradient-r-blue-green-red-lg {
+    background-image: repeating-linear-gradient(to right, #00f, #0f0, #f00 100px);
   }
 
-  .xl\:bg-gradient-br-black-white-with-stops-lg {
-    background-image: repeating-linear-gradient(to bottom right, #000, #000 45%, #fff 55%, #fff 100px);
+  .xl\:bg-gradient-br-blue-green-red-lg {
+    background-image: repeating-linear-gradient(to bottom right, #00f, #0f0, #f00 100px);
   }
 
-  .xl\:bg-gradient-b-black-white-with-stops-lg {
-    background-image: repeating-linear-gradient(#000, #000 45%, #fff 55%, #fff 100px);
+  .xl\:bg-gradient-b-blue-green-red-lg {
+    background-image: repeating-linear-gradient(#00f, #0f0, #f00 100px);
   }
 
-  .xl\:bg-gradient-bl-black-white-with-stops-lg {
-    background-image: repeating-linear-gradient(to bottom left, #000, #000 45%, #fff 55%, #fff 100px);
+  .xl\:bg-gradient-bl-blue-green-red-lg {
+    background-image: repeating-linear-gradient(to bottom left, #00f, #0f0, #f00 100px);
   }
 
-  .xl\:bg-gradient-l-black-white-with-stops-lg {
-    background-image: repeating-linear-gradient(to left, #000, #000 45%, #fff 55%, #fff 100px);
+  .xl\:bg-gradient-l-blue-green-red-lg {
+    background-image: repeating-linear-gradient(to left, #00f, #0f0, #f00 100px);
   }
 
-  .xl\:bg-gradient-tl-black-white-with-stops-lg {
-    background-image: repeating-linear-gradient(to top left, #000, #000 45%, #fff 55%, #fff 100px);
+  .xl\:bg-gradient-tl-blue-green-red-lg {
+    background-image: repeating-linear-gradient(to top left, #00f, #0f0, #f00 100px);
   }
 
   .xl\:bg-gradient-t-green-blue-lg {
@@ -47519,6 +48131,42 @@ video {
 
   .xl\:bg-radial-tl-red-green-blue-sm {
     background-image: repeating-radial-gradient(at top left, #f00, #0f0, #00f 25px);
+  }
+
+  .xl\:bg-radial-blue-green-red-sm {
+    background-image: repeating-radial-gradient(#00f, #0f0, #f00 25px);
+  }
+
+  .xl\:bg-radial-t-blue-green-red-sm {
+    background-image: repeating-radial-gradient(at top, #00f, #0f0, #f00 25px);
+  }
+
+  .xl\:bg-radial-tr-blue-green-red-sm {
+    background-image: repeating-radial-gradient(at top right, #00f, #0f0, #f00 25px);
+  }
+
+  .xl\:bg-radial-r-blue-green-red-sm {
+    background-image: repeating-radial-gradient(at right, #00f, #0f0, #f00 25px);
+  }
+
+  .xl\:bg-radial-br-blue-green-red-sm {
+    background-image: repeating-radial-gradient(at bottom right, #00f, #0f0, #f00 25px);
+  }
+
+  .xl\:bg-radial-b-blue-green-red-sm {
+    background-image: repeating-radial-gradient(at bottom, #00f, #0f0, #f00 25px);
+  }
+
+  .xl\:bg-radial-bl-blue-green-red-sm {
+    background-image: repeating-radial-gradient(at bottom left, #00f, #0f0, #f00 25px);
+  }
+
+  .xl\:bg-radial-l-blue-green-red-sm {
+    background-image: repeating-radial-gradient(at left, #00f, #0f0, #f00 25px);
+  }
+
+  .xl\:bg-radial-tl-blue-green-red-sm {
+    background-image: repeating-radial-gradient(at top left, #00f, #0f0, #f00 25px);
   }
 
   .xl\:bg-radial-black-white-with-stops-sm {
@@ -47665,6 +48313,42 @@ video {
     background-image: repeating-radial-gradient(at top left, #f00, #0f0, #00f 50px);
   }
 
+  .xl\:bg-radial-blue-green-red-md {
+    background-image: repeating-radial-gradient(#00f, #0f0, #f00 50px);
+  }
+
+  .xl\:bg-radial-t-blue-green-red-md {
+    background-image: repeating-radial-gradient(at top, #00f, #0f0, #f00 50px);
+  }
+
+  .xl\:bg-radial-tr-blue-green-red-md {
+    background-image: repeating-radial-gradient(at top right, #00f, #0f0, #f00 50px);
+  }
+
+  .xl\:bg-radial-r-blue-green-red-md {
+    background-image: repeating-radial-gradient(at right, #00f, #0f0, #f00 50px);
+  }
+
+  .xl\:bg-radial-br-blue-green-red-md {
+    background-image: repeating-radial-gradient(at bottom right, #00f, #0f0, #f00 50px);
+  }
+
+  .xl\:bg-radial-b-blue-green-red-md {
+    background-image: repeating-radial-gradient(at bottom, #00f, #0f0, #f00 50px);
+  }
+
+  .xl\:bg-radial-bl-blue-green-red-md {
+    background-image: repeating-radial-gradient(at bottom left, #00f, #0f0, #f00 50px);
+  }
+
+  .xl\:bg-radial-l-blue-green-red-md {
+    background-image: repeating-radial-gradient(at left, #00f, #0f0, #f00 50px);
+  }
+
+  .xl\:bg-radial-tl-blue-green-red-md {
+    background-image: repeating-radial-gradient(at top left, #00f, #0f0, #f00 50px);
+  }
+
   .xl\:bg-radial-black-white-with-stops-md {
     background-image: repeating-radial-gradient(#000, #000 45%, #fff 55%, #fff 50px);
   }
@@ -47807,6 +48491,42 @@ video {
 
   .xl\:bg-radial-tl-red-green-blue-lg {
     background-image: repeating-radial-gradient(at top left, #f00, #0f0, #00f 100px);
+  }
+
+  .xl\:bg-radial-blue-green-red-lg {
+    background-image: repeating-radial-gradient(#00f, #0f0, #f00 100px);
+  }
+
+  .xl\:bg-radial-t-blue-green-red-lg {
+    background-image: repeating-radial-gradient(at top, #00f, #0f0, #f00 100px);
+  }
+
+  .xl\:bg-radial-tr-blue-green-red-lg {
+    background-image: repeating-radial-gradient(at top right, #00f, #0f0, #f00 100px);
+  }
+
+  .xl\:bg-radial-r-blue-green-red-lg {
+    background-image: repeating-radial-gradient(at right, #00f, #0f0, #f00 100px);
+  }
+
+  .xl\:bg-radial-br-blue-green-red-lg {
+    background-image: repeating-radial-gradient(at bottom right, #00f, #0f0, #f00 100px);
+  }
+
+  .xl\:bg-radial-b-blue-green-red-lg {
+    background-image: repeating-radial-gradient(at bottom, #00f, #0f0, #f00 100px);
+  }
+
+  .xl\:bg-radial-bl-blue-green-red-lg {
+    background-image: repeating-radial-gradient(at bottom left, #00f, #0f0, #f00 100px);
+  }
+
+  .xl\:bg-radial-l-blue-green-red-lg {
+    background-image: repeating-radial-gradient(at left, #00f, #0f0, #f00 100px);
+  }
+
+  .xl\:bg-radial-tl-blue-green-red-lg {
+    background-image: repeating-radial-gradient(at top left, #00f, #0f0, #f00 100px);
   }
 
   .xl\:bg-radial-black-white-with-stops-lg {

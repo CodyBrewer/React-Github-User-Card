@@ -32,20 +32,23 @@ class GithubUser extends Component {
 
   render() {
     return (
-      <div className="flex mx-auto my-4 items-center w-11/12 border-red-200 border-2">
+      <div className="flex mx-auto my-4 items-center w-11/12 border-red-200 border-2 bg-gradient-bl-red-blue">
         <section className="w-1/2 m-4">
           <img
             className="w-1/2"
             src={this.state.userData.avatar_url}
             alt={this.state.userData.name}
           />
-          <h2 className="text-blue-400">{this.state.userData.name}</h2>
-          <a href={`https://${this.state.userData.blog}`}>
+          <h2 className="text-white">{this.state.userData.name}</h2>
+          <a
+            className="text-white"
+            href={`https://${this.state.userData.blog}`}
+          >
             {this.state.userData.blog}
           </a>
         </section>
         <section className="w-1/2 m-4 text-center">
-          <p className="text-base">{this.state.userData.bio}</p>
+          <p className="text-base text-white">{this.state.userData.bio}</p>
           {this.state.userData.hireable && this.state.userData.email ? (
             <p className="text-sm">
               Looking for coding opportunities!{" "}

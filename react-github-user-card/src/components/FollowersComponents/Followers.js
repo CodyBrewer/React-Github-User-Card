@@ -10,6 +10,12 @@ class Followers extends Component {
     this.getFollowerData(this.props.user);
   }
 
+  componentDidUpdate(prevProps, prevState) {
+    if (prevProps.user !== this.props.user) {
+      this.getFollowerData(this.props.user);
+    }
+  }
+
   getFollowerData = user => {
     fetch(`https://api.github.com/users/${user}/followers`)
       .then(res => res.json())

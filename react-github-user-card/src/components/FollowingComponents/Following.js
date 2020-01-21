@@ -13,6 +13,12 @@ class Following extends Component {
     this.getFollowingData(this.props.user);
   }
 
+  componentDidUpdate(prevProps, prevState) {
+    if (prevProps.user !== this.props.user) {
+      this.getFollowingData(this.props.user);
+    }
+  }
+
   getFollowingData = user => {
     fetch(`https://api.github.com/users/${user}/following`)
       .then(res => res.json())

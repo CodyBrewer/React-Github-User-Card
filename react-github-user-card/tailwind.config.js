@@ -17,7 +17,7 @@ module.exports = {
         red: "#f00",
         "red-blue": ["#f00", "#00f"],
         "red-green-blue": ["#f00", "#0f0", "#00f"],
-        "black-white-with-stops": ["#000", "#000 45%", "#fff 55%", "#fff"],
+        "blue-green-red": ["#00f", "#0f0", "#f00"],
         "green-blue": ["#0f0", "#00f"]
       }
     },
@@ -47,6 +47,7 @@ module.exports = {
         red: "#f00",
         "red-blue": ["#f00", "#00f"],
         "red-green-blue": ["#f00", "#0f0", "#00f"],
+        "blue-green-red": ["#00f", "#0f0", "#f00"],
         "black-white-with-stops": ["#000", "#000 45%", "#fff 55%", "#fff"]
       }
     },
