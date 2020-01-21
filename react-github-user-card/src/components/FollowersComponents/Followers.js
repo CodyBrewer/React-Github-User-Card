@@ -29,11 +29,16 @@ class Followers extends Component {
   };
 
   render() {
+    console.log(this.props);
     return (
       <ul className="mx-auto w-1/2">
         Followers:
         {this.state.followersData.map(followerData => (
-          <Follower followerData={followerData} />
+          <Follower
+            key={followerData.login}
+            changeUser={this.props.changeUser}
+            followerData={followerData}
+          />
         ))}
       </ul>
     );

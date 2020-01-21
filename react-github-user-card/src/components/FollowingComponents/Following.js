@@ -36,7 +36,11 @@ class Following extends Component {
       <ul className="mx-auto w-1/2">
         Following:
         {this.state.followingData.map(followData => (
-          <Follow followData={followData} />
+          <Follow
+            key={followData.login}
+            changeUser={this.props.changeUser}
+            followData={followData}
+          />
         ))}
       </ul>
     );

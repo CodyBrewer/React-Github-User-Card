@@ -12,7 +12,7 @@ class App extends Component {
     search: ""
   };
 
-  handleSearchUser = user => {
+  handleChangeUser = user => {
     this.setState({
       user: user
     });
@@ -24,7 +24,7 @@ class App extends Component {
 
   handleSearchSubmit = e => {
     e.preventDefault();
-    this.handleSearchUser(this.state.search);
+    this.handleChangeUser(this.state.search);
     this.setState({ search: "" });
   };
 
@@ -40,9 +40,12 @@ class App extends Component {
         <section className="w-11/12 mx-auto flex">
           <Followers
             user={this.state.user}
-            followersData={this.state.followersData}
+            changeUser={this.handleChangeUser}
           />
-          <Following user={this.state.user} />
+          <Following
+            user={this.state.user}
+            changeUser={this.handleChangeUser}
+          />
         </section>
       </div>
     );
